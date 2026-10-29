@@ -27,9 +27,9 @@ que lo vea.[Diccionario de datos](data/diccionario_datos.md)
 
 | Validación | Resultado |
 |---|---|
-| Filas únicas | [2.000] |
-| Transacción no reconocida | [39 %] |
-| Pico sembrado en semana 4 | [Sí, 60.21 %] |
+| Filas únicas | 2.000 |
+| Transacción no reconocida | 39 % |
+| Pico sembrado en semana 4 | Sí, 60.21 % |
 
 ## Próximos pasos
 - [ ] Semana 2: agente clasificador en n8n con salida estructurada
