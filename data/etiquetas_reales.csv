@@ -1,0 +1,2001 @@
+id_solicitud,motivo_real,prioridad_real
+Q00001,Transacción no reconocida,Alta
+Q00002,Demora en atención,Media
+Q00003,Transacción no reconocida,Alta
+Q00004,Sin clasificar,
+Q00005,Transacción no reconocida,Alta
+Q00006,Sin clasificar,
+Q00007,Cobro de comisiones,Media
+Q00008,Otro,Baja
+Q00009,Cobro de comisiones,Media
+Q00010,Transacción no reconocida,Alta
+Q00011,Cobro de comisiones,Media
+Q00012,Transacción no reconocida,Alta
+Q00013,Falla en app o canal digital,Baja
+Q00014,Demora en atención,Media
+Q00015,Transacción no reconocida,Alta
+Q00016,Transacción no reconocida,Alta
+Q00017,Demora en atención,Media
+Q00018,Demora en atención,Media
+Q00019,Transacción no reconocida,Alta
+Q00020,Transacción no reconocida,Alta
+Q00021,Sin clasificar,
+Q00022,Sin clasificar,
+Q00023,Cobro de comisiones,Media
+Q00024,Cobro de comisiones,Media
+Q00025,Transacción no reconocida,Alta
+Q00026,Transacción no reconocida,Alta
+Q00027,Transacción no reconocida,Alta
+Q00028,Falla en app o canal digital,Baja
+Q00029,Transacción no reconocida,Alta
+Q00030,Transacción no reconocida,Alta
+Q00031,Cobro de comisiones,Media
+Q00032,Otro,Baja
+Q00033,Otro,Baja
+Q00034,Demora en atención,Media
+Q00035,Cobro de comisiones,Media
+Q00036,Transacción no reconocida,Alta
+Q00037,Otro,Baja
+Q00038,Transacción no reconocida,Alta
+Q00039,Transacción no reconocida,Alta
+Q00040,Transacción mal aplicada,Alta
+Q00041,Cobro de comisiones,Media
+Q00042,Cobro de comisiones,Media
+Q00043,Transacción mal aplicada,Alta
+Q00044,Falla en app o canal digital,Baja
+Q00045,Transacción no reconocida,Alta
+Q00046,Transacción no reconocida,Alta
+Q00047,Transacción no reconocida,Alta
+Q00048,Transacción no reconocida,Alta
+Q00049,Transacción no reconocida,Alta
+Q00050,Transacción no reconocida,Alta
+Q00051,Transacción no reconocida,Alta
+Q00052,Transacción no reconocida,Alta
+Q00053,Cobro de comisiones,Media
+Q00054,Transacción no reconocida,Alta
+Q00055,Cobro de comisiones,Media
+Q00056,Cobro de comisiones,Media
+Q00057,Demora en atención,Media
+Q00058,Cobro de comisiones,Media
+Q00059,Transacción mal aplicada,Alta
+Q00060,Otro,Baja
+Q00061,Cobro de comisiones,Media
+Q00062,Cobro de comisiones,Media
+Q00063,Transacción no reconocida,Alta
+Q00064,Cobro de comisiones,Media
+Q00065,Demora en atención,Media
+Q00066,Transacción no reconocida,Alta
+Q00067,Transacción no reconocida,Alta
+Q00068,Transacción no reconocida,Alta
+Q00069,Falla en app o canal digital,Baja
+Q00070,Transacción mal aplicada,Alta
+Q00071,Otro,Baja
+Q00072,Transacción no reconocida,Alta
+Q00073,Transacción no reconocida,Alta
+Q00074,Demora en atención,Media
+Q00075,Cobro de comisiones,Media
+Q00076,Transacción no reconocida,Alta
+Q00077,Transacción no reconocida,Alta
+Q00078,Transacción no reconocida,Alta
+Q00079,Demora en atención,Media
+Q00080,Demora en atención,Media
+Q00081,Transacción no reconocida,Alta
+Q00082,Demora en atención,Media
+Q00083,Transacción no reconocida,Alta
+Q00084,Otro,Baja
+Q00085,Cobro de comisiones,Media
+Q00086,Otro,Baja
+Q00087,Transacción no reconocida,Alta
+Q00088,Otro,Baja
+Q00089,Otro,Baja
+Q00090,Cobro de comisiones,Media
+Q00091,Transacción no reconocida,Alta
+Q00092,Cobro de comisiones,Media
+Q00093,Demora en atención,Media
+Q00094,Cobro de comisiones,Media
+Q00095,Transacción no reconocida,Alta
+Q00096,Transacción no reconocida,Alta
+Q00097,Transacción no reconocida,Alta
+Q00098,Demora en atención,Media
+Q00099,Transacción no reconocida,Alta
+Q00100,Transacción no reconocida,Alta
+Q00101,Transacción no reconocida,Alta
+Q00102,Transacción no reconocida,Alta
+Q00103,Transacción no reconocida,Alta
+Q00104,Transacción no reconocida,Alta
+Q00105,Sin clasificar,
+Q00106,Demora en atención,Media
+Q00107,Sin clasificar,
+Q00108,Falla en app o canal digital,Baja
+Q00109,Falla en app o canal digital,Baja
+Q00110,Cobro de comisiones,Media
+Q00111,Transacción no reconocida,Alta
+Q00112,Transacción no reconocida,Alta
+Q00113,Transacción no reconocida,Alta
+Q00114,Falla en app o canal digital,Baja
+Q00115,Demora en atención,Media
+Q00116,Otro,Baja
+Q00117,Sin clasificar,
+Q00118,Transacción no reconocida,Alta
+Q00119,Demora en atención,Media
+Q00120,Transacción no reconocida,Alta
+Q00121,Demora en atención,Media
+Q00122,Cobro de comisiones,Media
+Q00123,Transacción no reconocida,Alta
+Q00124,Falla en app o canal digital,Baja
+Q00125,Transacción no reconocida,Alta
+Q00126,Demora en atención,Media
+Q00127,Transacción no reconocida,Alta
+Q00128,Cobro de comisiones,Media
+Q00129,Cobro de comisiones,Media
+Q00130,Falla en app o canal digital,Baja
+Q00131,Sin clasificar,
+Q00132,Transacción no reconocida,Alta
+Q00133,Falla en app o canal digital,Baja
+Q00134,Sin clasificar,
+Q00135,Transacción no reconocida,Alta
+Q00136,Demora en atención,Media
+Q00137,Transacción no reconocida,Alta
+Q00138,Transacción mal aplicada,Alta
+Q00139,Transacción no reconocida,Alta
+Q00140,Falla en app o canal digital,Baja
+Q00141,Sin clasificar,
+Q00142,Sin clasificar,
+Q00143,Cobro de comisiones,Media
+Q00144,Transacción no reconocida,Alta
+Q00145,Transacción no reconocida,Alta
+Q00146,Sin clasificar,
+Q00147,Falla en app o canal digital,Baja
+Q00148,Otro,Baja
+Q00149,Transacción no reconocida,Alta
+Q00150,Cobro de comisiones,Media
+Q00151,Transacción mal aplicada,Alta
+Q00152,Transacción no reconocida,Alta
+Q00153,Transacción no reconocida,Alta
+Q00154,Cobro de comisiones,Media
+Q00155,Transacción no reconocida,Alta
+Q00156,Otro,Baja
+Q00157,Demora en atención,Media
+Q00158,Demora en atención,Media
+Q00159,Transacción no reconocida,Alta
+Q00160,Falla en app o canal digital,Baja
+Q00161,Falla en app o canal digital,Baja
+Q00162,Cobro de comisiones,Media
+Q00163,Cobro de comisiones,Media
+Q00164,Transacción no reconocida,Alta
+Q00165,Transacción no reconocida,Alta
+Q00166,Transacción no reconocida,Alta
+Q00167,Otro,Baja
+Q00168,Otro,Baja
+Q00169,Transacción no reconocida,Alta
+Q00170,Transacción no reconocida,Alta
+Q00171,Otro,Baja
+Q00172,Transacción no reconocida,Alta
+Q00173,Demora en atención,Media
+Q00174,Transacción no reconocida,Alta
+Q00175,Demora en atención,Media
+Q00176,Transacción no reconocida,Alta
+Q00177,Cobro de comisiones,Media
+Q00178,Cobro de comisiones,Media
+Q00179,Demora en atención,Media
+Q00180,Otro,Baja
+Q00181,Demora en atención,Media
+Q00182,Demora en atención,Media
+Q00183,Transacción no reconocida,Alta
+Q00184,Otro,Baja
+Q00185,Cobro de comisiones,Media
+Q00186,Transacción no reconocida,Alta
+Q00187,Transacción no reconocida,Alta
+Q00188,Cobro de comisiones,Media
+Q00189,Transacción no reconocida,Alta
+Q00190,Demora en atención,Media
+Q00191,Transacción no reconocida,Alta
+Q00192,Demora en atención,Media
+Q00193,Falla en app o canal digital,Baja
+Q00194,Otro,Baja
+Q00195,Transacción no reconocida,Alta
+Q00196,Cobro de comisiones,Media
+Q00197,Transacción no reconocida,Alta
+Q00198,Transacción no reconocida,Alta
+Q00199,Demora en atención,Media
+Q00200,Cobro de comisiones,Media
+Q00201,Transacción mal aplicada,Alta
+Q00202,Falla en app o canal digital,Baja
+Q00203,Transacción no reconocida,Alta
+Q00204,Sin clasificar,
+Q00205,Transacción no reconocida,Alta
+Q00206,Transacción no reconocida,Alta
+Q00207,Transacción mal aplicada,Alta
+Q00208,Transacción no reconocida,Alta
+Q00209,Falla en app o canal digital,Baja
+Q00210,Transacción no reconocida,Alta
+Q00211,Transacción no reconocida,Alta
+Q00212,Transacción mal aplicada,Alta
+Q00213,Transacción no reconocida,Alta
+Q00214,Transacción no reconocida,Alta
+Q00215,Demora en atención,Media
+Q00216,Otro,Baja
+Q00217,Otro,Baja
+Q00218,Cobro de comisiones,Media
+Q00219,Otro,Baja
+Q00220,Falla en app o canal digital,Baja
+Q00221,Transacción no reconocida,Alta
+Q00222,Demora en atención,Media
+Q00223,Transacción no reconocida,Alta
+Q00224,Falla en app o canal digital,Baja
+Q00225,Transacción mal aplicada,Alta
+Q00226,Transacción mal aplicada,Alta
+Q00227,Demora en atención,Media
+Q00228,Sin clasificar,
+Q00229,Sin clasificar,
+Q00230,Transacción no reconocida,Alta
+Q00231,Transacción mal aplicada,Alta
+Q00232,Demora en atención,Media
+Q00233,Otro,Baja
+Q00234,Cobro de comisiones,Media
+Q00235,Transacción no reconocida,Alta
+Q00236,Transacción no reconocida,Alta
+Q00237,Transacción no reconocida,Alta
+Q00238,Transacción no reconocida,Alta
+Q00239,Transacción no reconocida,Alta
+Q00240,Falla en app o canal digital,Baja
+Q00241,Cobro de comisiones,Media
+Q00242,Demora en atención,Media
+Q00243,Falla en app o canal digital,Baja
+Q00244,Demora en atención,Media
+Q00245,Transacción mal aplicada,Alta
+Q00246,Demora en atención,Media
+Q00247,Transacción no reconocida,Alta
+Q00248,Otro,Baja
+Q00249,Transacción no reconocida,Alta
+Q00250,Transacción mal aplicada,Alta
+Q00251,Transacción no reconocida,Alta
+Q00252,Transacción no reconocida,Alta
+Q00253,Cobro de comisiones,Media
+Q00254,Demora en atención,Media
+Q00255,Transacción no reconocida,Alta
+Q00256,Transacción mal aplicada,Alta
+Q00257,Demora en atención,Media
+Q00258,Transacción no reconocida,Alta
+Q00259,Falla en app o canal digital,Baja
+Q00260,Transacción no reconocida,Alta
+Q00261,Otro,Baja
+Q00262,Demora en atención,Media
+Q00263,Transacción no reconocida,Alta
+Q00264,Demora en atención,Media
+Q00265,Otro,Baja
+Q00266,Otro,Baja
+Q00267,Transacción no reconocida,Alta
+Q00268,Otro,Baja
+Q00269,Transacción no reconocida,Alta
+Q00270,Transacción mal aplicada,Alta
+Q00271,Transacción mal aplicada,Alta
+Q00272,Cobro de comisiones,Media
+Q00273,Transacción no reconocida,Alta
+Q00274,Transacción no reconocida,Alta
+Q00275,Transacción no reconocida,Alta
+Q00276,Demora en atención,Media
+Q00277,Sin clasificar,
+Q00278,Cobro de comisiones,Media
+Q00279,Otro,Baja
+Q00280,Transacción mal aplicada,Alta
+Q00281,Transacción no reconocida,Alta
+Q00282,Transacción no reconocida,Alta
+Q00283,Transacción no reconocida,Alta
+Q00284,Transacción no reconocida,Alta
+Q00285,Transacción mal aplicada,Alta
+Q00286,Demora en atención,Media
+Q00287,Otro,Baja
+Q00288,Otro,Baja
+Q00289,Sin clasificar,
+Q00290,Otro,Baja
+Q00291,Transacción no reconocida,Alta
+Q00292,Cobro de comisiones,Media
+Q00293,Otro,Baja
+Q00294,Transacción mal aplicada,Alta
+Q00295,Otro,Baja
+Q00296,Transacción no reconocida,Alta
+Q00297,Transacción no reconocida,Alta
+Q00298,Otro,Baja
+Q00299,Demora en atención,Media
+Q00300,Transacción mal aplicada,Alta
+Q00301,Transacción no reconocida,Alta
+Q00302,Cobro de comisiones,Media
+Q00303,Transacción no reconocida,Alta
+Q00304,Falla en app o canal digital,Baja
+Q00305,Otro,Baja
+Q00306,Otro,Baja
+Q00307,Transacción no reconocida,Alta
+Q00308,Transacción no reconocida,Alta
+Q00309,Transacción no reconocida,Alta
+Q00310,Cobro de comisiones,Media
+Q00311,Otro,Baja
+Q00312,Otro,Baja
+Q00313,Sin clasificar,
+Q00314,Otro,Baja
+Q00315,Transacción no reconocida,Alta
+Q00316,Transacción no reconocida,Alta
+Q00317,Transacción no reconocida,Alta
+Q00318,Transacción no reconocida,Alta
+Q00319,Cobro de comisiones,Media
+Q00320,Transacción no reconocida,Alta
+Q00321,Transacción no reconocida,Alta
+Q00322,Cobro de comisiones,Media
+Q00323,Cobro de comisiones,Media
+Q00324,Cobro de comisiones,Media
+Q00325,Transacción no reconocida,Alta
+Q00326,Transacción no reconocida,Alta
+Q00327,Transacción mal aplicada,Alta
+Q00328,Demora en atención,Media
+Q00329,Transacción no reconocida,Alta
+Q00330,Otro,Baja
+Q00331,Sin clasificar,
+Q00332,Cobro de comisiones,Media
+Q00333,Demora en atención,Media
+Q00334,Demora en atención,Media
+Q00335,Transacción no reconocida,Alta
+Q00336,Transacción mal aplicada,Alta
+Q00337,Transacción no reconocida,Alta
+Q00338,Demora en atención,Media
+Q00339,Transacción no reconocida,Alta
+Q00340,Transacción no reconocida,Alta
+Q00341,Transacción no reconocida,Alta
+Q00342,Transacción no reconocida,Alta
+Q00343,Sin clasificar,
+Q00344,Falla en app o canal digital,Baja
+Q00345,Transacción no reconocida,Alta
+Q00346,Transacción no reconocida,Alta
+Q00347,Demora en atención,Media
+Q00348,Transacción no reconocida,Alta
+Q00349,Transacción no reconocida,Alta
+Q00350,Cobro de comisiones,Media
+Q00351,Otro,Baja
+Q00352,Demora en atención,Media
+Q00353,Transacción no reconocida,Alta
+Q00354,Transacción no reconocida,Alta
+Q00355,Cobro de comisiones,Media
+Q00356,Cobro de comisiones,Media
+Q00357,Transacción no reconocida,Alta
+Q00358,Demora en atención,Media
+Q00359,Transacción no reconocida,Alta
+Q00360,Transacción no reconocida,Alta
+Q00361,Cobro de comisiones,Media
+Q00362,Demora en atención,Media
+Q00363,Transacción no reconocida,Alta
+Q00364,Demora en atención,Media
+Q00365,Otro,Baja
+Q00366,Demora en atención,Media
+Q00367,Demora en atención,Media
+Q00368,Cobro de comisiones,Media
+Q00369,Transacción no reconocida,Alta
+Q00370,Demora en atención,Media
+Q00371,Otro,Baja
+Q00372,Transacción no reconocida,Alta
+Q00373,Falla en app o canal digital,Baja
+Q00374,Demora en atención,Media
+Q00375,Cobro de comisiones,Media
+Q00376,Transacción no reconocida,Alta
+Q00377,Transacción mal aplicada,Alta
+Q00378,Sin clasificar,
+Q00379,Transacción mal aplicada,Alta
+Q00380,Cobro de comisiones,Media
+Q00381,Transacción no reconocida,Alta
+Q00382,Transacción no reconocida,Alta
+Q00383,Transacción mal aplicada,Alta
+Q00384,Transacción no reconocida,Alta
+Q00385,Falla en app o canal digital,Baja
+Q00386,Demora en atención,Media
+Q00387,Transacción no reconocida,Alta
+Q00388,Transacción mal aplicada,Alta
+Q00389,Transacción mal aplicada,Alta
+Q00390,Transacción mal aplicada,Alta
+Q00391,Demora en atención,Media
+Q00392,Transacción mal aplicada,Alta
+Q00393,Transacción no reconocida,Alta
+Q00394,Cobro de comisiones,Media
+Q00395,Transacción no reconocida,Alta
+Q00396,Otro,Baja
+Q00397,Demora en atención,Media
+Q00398,Otro,Baja
+Q00399,Transacción no reconocida,Alta
+Q00400,Transacción no reconocida,Alta
+Q00401,Transacción no reconocida,Alta
+Q00402,Sin clasificar,
+Q00403,Transacción no reconocida,Alta
+Q00404,Transacción no reconocida,Alta
+Q00405,Transacción mal aplicada,Alta
+Q00406,Cobro de comisiones,Media
+Q00407,Transacción no reconocida,Alta
+Q00408,Cobro de comisiones,Media
+Q00409,Transacción no reconocida,Alta
+Q00410,Demora en atención,Media
+Q00411,Falla en app o canal digital,Baja
+Q00412,Transacción mal aplicada,Alta
+Q00413,Demora en atención,Media
+Q00414,Transacción no reconocida,Alta
+Q00415,Falla en app o canal digital,Baja
+Q00416,Falla en app o canal digital,Baja
+Q00417,Transacción mal aplicada,Alta
+Q00418,Cobro de comisiones,Media
+Q00419,Sin clasificar,
+Q00420,Demora en atención,Media
+Q00421,Sin clasificar,
+Q00422,Transacción no reconocida,Alta
+Q00423,Cobro de comisiones,Media
+Q00424,Falla en app o canal digital,Baja
+Q00425,Transacción no reconocida,Alta
+Q00426,Transacción no reconocida,Alta
+Q00427,Transacción mal aplicada,Alta
+Q00428,Transacción no reconocida,Alta
+Q00429,Cobro de comisiones,Media
+Q00430,Demora en atención,Media
+Q00431,Transacción mal aplicada,Alta
+Q00432,Transacción no reconocida,Alta
+Q00433,Transacción no reconocida,Alta
+Q00434,Falla en app o canal digital,Baja
+Q00435,Demora en atención,Media
+Q00436,Demora en atención,Media
+Q00437,Falla en app o canal digital,Baja
+Q00438,Transacción no reconocida,Alta
+Q00439,Transacción mal aplicada,Alta
+Q00440,Falla en app o canal digital,Baja
+Q00441,Transacción no reconocida,Alta
+Q00442,Otro,Baja
+Q00443,Demora en atención,Media
+Q00444,Falla en app o canal digital,Baja
+Q00445,Transacción no reconocida,Alta
+Q00446,Transacción mal aplicada,Alta
+Q00447,Cobro de comisiones,Media
+Q00448,Otro,Baja
+Q00449,Otro,Baja
+Q00450,Falla en app o canal digital,Baja
+Q00451,Transacción no reconocida,Alta
+Q00452,Transacción no reconocida,Alta
+Q00453,Transacción no reconocida,Alta
+Q00454,Transacción no reconocida,Alta
+Q00455,Falla en app o canal digital,Baja
+Q00456,Otro,Baja
+Q00457,Transacción no reconocida,Alta
+Q00458,Falla en app o canal digital,Baja
+Q00459,Transacción no reconocida,Alta
+Q00460,Transacción no reconocida,Alta
+Q00461,Otro,Baja
+Q00462,Cobro de comisiones,Media
+Q00463,Otro,Baja
+Q00464,Transacción no reconocida,Alta
+Q00465,Cobro de comisiones,Media
+Q00466,Transacción no reconocida,Alta
+Q00467,Transacción mal aplicada,Alta
+Q00468,Transacción no reconocida,Alta
+Q00469,Demora en atención,Media
+Q00470,Transacción no reconocida,Alta
+Q00471,Falla en app o canal digital,Baja
+Q00472,Transacción no reconocida,Alta
+Q00473,Transacción no reconocida,Alta
+Q00474,Cobro de comisiones,Media
+Q00475,Transacción mal aplicada,Alta
+Q00476,Transacción no reconocida,Alta
+Q00477,Transacción no reconocida,Alta
+Q00478,Transacción no reconocida,Alta
+Q00479,Transacción no reconocida,Alta
+Q00480,Transacción no reconocida,Alta
+Q00481,Otro,Baja
+Q00482,Transacción no reconocida,Alta
+Q00483,Sin clasificar,
+Q00484,Demora en atención,Media
+Q00485,Otro,Baja
+Q00486,Transacción no reconocida,Alta
+Q00487,Transacción no reconocida,Alta
+Q00488,Cobro de comisiones,Media
+Q00489,Demora en atención,Media
+Q00490,Transacción mal aplicada,Alta
+Q00491,Otro,Baja
+Q00492,Transacción no reconocida,Alta
+Q00493,Cobro de comisiones,Media
+Q00494,Transacción no reconocida,Alta
+Q00495,Sin clasificar,
+Q00496,Cobro de comisiones,Media
+Q00497,Transacción mal aplicada,Alta
+Q00498,Transacción no reconocida,Alta
+Q00499,Demora en atención,Media
+Q00500,Transacción no reconocida,Alta
+Q00501,Transacción no reconocida,Alta
+Q00502,Otro,Baja
+Q00503,Demora en atención,Media
+Q00504,Transacción no reconocida,Alta
+Q00505,Transacción no reconocida,Alta
+Q00506,Falla en app o canal digital,Baja
+Q00507,Transacción mal aplicada,Alta
+Q00508,Cobro de comisiones,Media
+Q00509,Cobro de comisiones,Media
+Q00510,Otro,Baja
+Q00511,Demora en atención,Media
+Q00512,Transacción no reconocida,Alta
+Q00513,Cobro de comisiones,Media
+Q00514,Demora en atención,Media
+Q00515,Falla en app o canal digital,Baja
+Q00516,Transacción no reconocida,Alta
+Q00517,Transacción no reconocida,Alta
+Q00518,Transacción no reconocida,Alta
+Q00519,Cobro de comisiones,Media
+Q00520,Falla en app o canal digital,Baja
+Q00521,Cobro de comisiones,Media
+Q00522,Cobro de comisiones,Media
+Q00523,Falla en app o canal digital,Baja
+Q00524,Transacción no reconocida,Alta
+Q00525,Demora en atención,Media
+Q00526,Cobro de comisiones,Media
+Q00527,Demora en atención,Media
+Q00528,Cobro de comisiones,Media
+Q00529,Transacción mal aplicada,Alta
+Q00530,Cobro de comisiones,Media
+Q00531,Cobro de comisiones,Media
+Q00532,Transacción no reconocida,Alta
+Q00533,Sin clasificar,
+Q00534,Transacción mal aplicada,Alta
+Q00535,Transacción no reconocida,Alta
+Q00536,Transacción no reconocida,Alta
+Q00537,Transacción no reconocida,Alta
+Q00538,Transacción mal aplicada,Alta
+Q00539,Otro,Baja
+Q00540,Falla en app o canal digital,Baja
+Q00541,Cobro de comisiones,Media
+Q00542,Sin clasificar,
+Q00543,Demora en atención,Media
+Q00544,Transacción mal aplicada,Alta
+Q00545,Demora en atención,Media
+Q00546,Cobro de comisiones,Media
+Q00547,Cobro de comisiones,Media
+Q00548,Demora en atención,Media
+Q00549,Transacción no reconocida,Alta
+Q00550,Otro,Baja
+Q00551,Transacción no reconocida,Alta
+Q00552,Transacción no reconocida,Alta
+Q00553,Otro,Baja
+Q00554,Demora en atención,Media
+Q00555,Transacción mal aplicada,Alta
+Q00556,Demora en atención,Media
+Q00557,Transacción no reconocida,Alta
+Q00558,Cobro de comisiones,Media
+Q00559,Transacción no reconocida,Alta
+Q00560,Transacción no reconocida,Alta
+Q00561,Falla en app o canal digital,Baja
+Q00562,Transacción no reconocida,Alta
+Q00563,Otro,Baja
+Q00564,Transacción mal aplicada,Alta
+Q00565,Cobro de comisiones,Media
+Q00566,Cobro de comisiones,Media
+Q00567,Demora en atención,Media
+Q00568,Cobro de comisiones,Media
+Q00569,Transacción no reconocida,Alta
+Q00570,Transacción no reconocida,Alta
+Q00571,Cobro de comisiones,Media
+Q00572,Transacción mal aplicada,Alta
+Q00573,Transacción no reconocida,Alta
+Q00574,Transacción no reconocida,Alta
+Q00575,Otro,Baja
+Q00576,Transacción no reconocida,Alta
+Q00577,Transacción no reconocida,Alta
+Q00578,Transacción no reconocida,Alta
+Q00579,Transacción mal aplicada,Alta
+Q00580,Demora en atención,Media
+Q00581,Transacción no reconocida,Alta
+Q00582,Otro,Baja
+Q00583,Otro,Baja
+Q00584,Otro,Baja
+Q00585,Cobro de comisiones,Media
+Q00586,Transacción no reconocida,Alta
+Q00587,Demora en atención,Media
+Q00588,Otro,Baja
+Q00589,Transacción no reconocida,Alta
+Q00590,Falla en app o canal digital,Baja
+Q00591,Transacción no reconocida,Alta
+Q00592,Transacción no reconocida,Alta
+Q00593,Demora en atención,Media
+Q00594,Transacción no reconocida,Alta
+Q00595,Transacción no reconocida,Alta
+Q00596,Otro,Baja
+Q00597,Transacción no reconocida,Alta
+Q00598,Sin clasificar,
+Q00599,Transacción no reconocida,Alta
+Q00600,Transacción no reconocida,Alta
+Q00601,Demora en atención,Media
+Q00602,Transacción no reconocida,Alta
+Q00603,Falla en app o canal digital,Baja
+Q00604,Transacción no reconocida,Alta
+Q00605,Otro,Baja
+Q00606,Otro,Baja
+Q00607,Transacción no reconocida,Alta
+Q00608,Demora en atención,Media
+Q00609,Cobro de comisiones,Media
+Q00610,Cobro de comisiones,Media
+Q00611,Transacción no reconocida,Alta
+Q00612,Otro,Baja
+Q00613,Transacción mal aplicada,Alta
+Q00614,Transacción no reconocida,Alta
+Q00615,Cobro de comisiones,Media
+Q00616,Otro,Baja
+Q00617,Transacción no reconocida,Alta
+Q00618,Transacción no reconocida,Alta
+Q00619,Transacción mal aplicada,Alta
+Q00620,Cobro de comisiones,Media
+Q00621,Otro,Baja
+Q00622,Transacción no reconocida,Alta
+Q00623,Transacción no reconocida,Alta
+Q00624,Transacción no reconocida,Alta
+Q00625,Transacción no reconocida,Alta
+Q00626,Transacción no reconocida,Alta
+Q00627,Demora en atención,Media
+Q00628,Demora en atención,Media
+Q00629,Transacción mal aplicada,Alta
+Q00630,Demora en atención,Media
+Q00631,Falla en app o canal digital,Baja
+Q00632,Cobro de comisiones,Media
+Q00633,Cobro de comisiones,Media
+Q00634,Sin clasificar,
+Q00635,Transacción mal aplicada,Alta
+Q00636,Cobro de comisiones,Media
+Q00637,Transacción mal aplicada,Alta
+Q00638,Transacción no reconocida,Alta
+Q00639,Cobro de comisiones,Media
+Q00640,Demora en atención,Media
+Q00641,Demora en atención,Media
+Q00642,Transacción no reconocida,Alta
+Q00643,Transacción no reconocida,Alta
+Q00644,Transacción no reconocida,Alta
+Q00645,Cobro de comisiones,Media
+Q00646,Transacción no reconocida,Alta
+Q00647,Transacción no reconocida,Alta
+Q00648,Transacción no reconocida,Alta
+Q00649,Otro,Baja
+Q00650,Transacción no reconocida,Alta
+Q00651,Demora en atención,Media
+Q00652,Cobro de comisiones,Media
+Q00653,Transacción no reconocida,Alta
+Q00654,Transacción mal aplicada,Alta
+Q00655,Transacción no reconocida,Alta
+Q00656,Transacción mal aplicada,Alta
+Q00657,Cobro de comisiones,Media
+Q00658,Sin clasificar,
+Q00659,Cobro de comisiones,Media
+Q00660,Cobro de comisiones,Media
+Q00661,Transacción mal aplicada,Alta
+Q00662,Transacción no reconocida,Alta
+Q00663,Transacción no reconocida,Alta
+Q00664,Transacción no reconocida,Alta
+Q00665,Transacción no reconocida,Alta
+Q00666,Cobro de comisiones,Media
+Q00667,Cobro de comisiones,Media
+Q00668,Transacción no reconocida,Alta
+Q00669,Transacción no reconocida,Alta
+Q00670,Transacción no reconocida,Alta
+Q00671,Cobro de comisiones,Media
+Q00672,Falla en app o canal digital,Baja
+Q00673,Transacción no reconocida,Alta
+Q00674,Demora en atención,Media
+Q00675,Falla en app o canal digital,Baja
+Q00676,Transacción no reconocida,Alta
+Q00677,Transacción no reconocida,Alta
+Q00678,Transacción no reconocida,Alta
+Q00679,Transacción no reconocida,Alta
+Q00680,Falla en app o canal digital,Baja
+Q00681,Transacción no reconocida,Alta
+Q00682,Cobro de comisiones,Media
+Q00683,Demora en atención,Media
+Q00684,Falla en app o canal digital,Baja
+Q00685,Demora en atención,Media
+Q00686,Transacción mal aplicada,Alta
+Q00687,Otro,Baja
+Q00688,Transacción mal aplicada,Alta
+Q00689,Otro,Baja
+Q00690,Cobro de comisiones,Media
+Q00691,Demora en atención,Media
+Q00692,Cobro de comisiones,Media
+Q00693,Otro,Baja
+Q00694,Otro,Baja
+Q00695,Demora en atención,Media
+Q00696,Transacción no reconocida,Alta
+Q00697,Cobro de comisiones,Media
+Q00698,Cobro de comisiones,Media
+Q00699,Transacción mal aplicada,Alta
+Q00700,Falla en app o canal digital,Baja
+Q00701,Transacción no reconocida,Alta
+Q00702,Transacción no reconocida,Alta
+Q00703,Demora en atención,Media
+Q00704,Demora en atención,Media
+Q00705,Transacción no reconocida,Alta
+Q00706,Demora en atención,Media
+Q00707,Demora en atención,Media
+Q00708,Falla en app o canal digital,Baja
+Q00709,Transacción no reconocida,Alta
+Q00710,Transacción mal aplicada,Alta
+Q00711,Transacción no reconocida,Alta
+Q00712,Sin clasificar,
+Q00713,Cobro de comisiones,Media
+Q00714,Transacción no reconocida,Alta
+Q00715,Transacción no reconocida,Alta
+Q00716,Cobro de comisiones,Media
+Q00717,Transacción no reconocida,Alta
+Q00718,Transacción no reconocida,Alta
+Q00719,Transacción no reconocida,Alta
+Q00720,Demora en atención,Media
+Q00721,Otro,Baja
+Q00722,Transacción no reconocida,Alta
+Q00723,Sin clasificar,
+Q00724,Cobro de comisiones,Media
+Q00725,Demora en atención,Media
+Q00726,Cobro de comisiones,Media
+Q00727,Transacción no reconocida,Alta
+Q00728,Transacción no reconocida,Alta
+Q00729,Otro,Baja
+Q00730,Cobro de comisiones,Media
+Q00731,Demora en atención,Media
+Q00732,Sin clasificar,
+Q00733,Demora en atención,Media
+Q00734,Transacción no reconocida,Alta
+Q00735,Transacción no reconocida,Alta
+Q00736,Otro,Baja
+Q00737,Transacción no reconocida,Alta
+Q00738,Transacción mal aplicada,Alta
+Q00739,Transacción no reconocida,Alta
+Q00740,Demora en atención,Media
+Q00741,Demora en atención,Media
+Q00742,Transacción no reconocida,Alta
+Q00743,Otro,Baja
+Q00744,Transacción no reconocida,Alta
+Q00745,Cobro de comisiones,Media
+Q00746,Transacción no reconocida,Alta
+Q00747,Transacción no reconocida,Alta
+Q00748,Demora en atención,Media
+Q00749,Falla en app o canal digital,Baja
+Q00750,Transacción mal aplicada,Alta
+Q00751,Cobro de comisiones,Media
+Q00752,Falla en app o canal digital,Baja
+Q00753,Demora en atención,Media
+Q00754,Transacción no reconocida,Alta
+Q00755,Demora en atención,Media
+Q00756,Otro,Baja
+Q00757,Transacción no reconocida,Alta
+Q00758,Transacción mal aplicada,Alta
+Q00759,Transacción no reconocida,Alta
+Q00760,Otro,Baja
+Q00761,Falla en app o canal digital,Baja
+Q00762,Transacción no reconocida,Alta
+Q00763,Transacción no reconocida,Alta
+Q00764,Transacción no reconocida,Alta
+Q00765,Transacción mal aplicada,Alta
+Q00766,Transacción no reconocida,Alta
+Q00767,Transacción no reconocida,Alta
+Q00768,Transacción no reconocida,Alta
+Q00769,Transacción no reconocida,Alta
+Q00770,Transacción no reconocida,Alta
+Q00771,Falla en app o canal digital,Baja
+Q00772,Transacción mal aplicada,Alta
+Q00773,Transacción mal aplicada,Alta
+Q00774,Transacción mal aplicada,Alta
+Q00775,Transacción no reconocida,Alta
+Q00776,Transacción no reconocida,Alta
+Q00777,Demora en atención,Media
+Q00778,Demora en atención,Media
+Q00779,Transacción no reconocida,Alta
+Q00780,Demora en atención,Media
+Q00781,Transacción no reconocida,Alta
+Q00782,Transacción no reconocida,Alta
+Q00783,Transacción no reconocida,Alta
+Q00784,Cobro de comisiones,Media
+Q00785,Transacción mal aplicada,Alta
+Q00786,Otro,Baja
+Q00787,Falla en app o canal digital,Baja
+Q00788,Transacción no reconocida,Alta
+Q00789,Transacción no reconocida,Alta
+Q00790,Cobro de comisiones,Media
+Q00791,Transacción no reconocida,Alta
+Q00792,Falla en app o canal digital,Baja
+Q00793,Transacción no reconocida,Alta
+Q00794,Demora en atención,Media
+Q00795,Demora en atención,Media
+Q00796,Otro,Baja
+Q00797,Transacción mal aplicada,Alta
+Q00798,Transacción no reconocida,Alta
+Q00799,Falla en app o canal digital,Baja
+Q00800,Transacción no reconocida,Alta
+Q00801,Cobro de comisiones,Media
+Q00802,Transacción no reconocida,Alta
+Q00803,Falla en app o canal digital,Baja
+Q00804,Otro,Baja
+Q00805,Cobro de comisiones,Media
+Q00806,Falla en app o canal digital,Baja
+Q00807,Transacción no reconocida,Alta
+Q00808,Transacción no reconocida,Alta
+Q00809,Cobro de comisiones,Media
+Q00810,Transacción no reconocida,Alta
+Q00811,Transacción no reconocida,Alta
+Q00812,Demora en atención,Media
+Q00813,Cobro de comisiones,Media
+Q00814,Transacción no reconocida,Alta
+Q00815,Falla en app o canal digital,Baja
+Q00816,Transacción no reconocida,Alta
+Q00817,Cobro de comisiones,Media
+Q00818,Transacción no reconocida,Alta
+Q00819,Otro,Baja
+Q00820,Transacción no reconocida,Alta
+Q00821,Demora en atención,Media
+Q00822,Falla en app o canal digital,Baja
+Q00823,Transacción no reconocida,Alta
+Q00824,Transacción no reconocida,Alta
+Q00825,Demora en atención,Media
+Q00826,Sin clasificar,
+Q00827,Cobro de comisiones,Media
+Q00828,Cobro de comisiones,Media
+Q00829,Cobro de comisiones,Media
+Q00830,Transacción no reconocida,Alta
+Q00831,Otro,Baja
+Q00832,Cobro de comisiones,Media
+Q00833,Transacción no reconocida,Alta
+Q00834,Sin clasificar,
+Q00835,Transacción no reconocida,Alta
+Q00836,Transacción no reconocida,Alta
+Q00837,Falla en app o canal digital,Baja
+Q00838,Transacción no reconocida,Alta
+Q00839,Sin clasificar,
+Q00840,Cobro de comisiones,Media
+Q00841,Demora en atención,Media
+Q00842,Demora en atención,Media
+Q00843,Transacción no reconocida,Alta
+Q00844,Cobro de comisiones,Media
+Q00845,Transacción mal aplicada,Alta
+Q00846,Otro,Baja
+Q00847,Demora en atención,Media
+Q00848,Transacción no reconocida,Alta
+Q00849,Cobro de comisiones,Media
+Q00850,Cobro de comisiones,Media
+Q00851,Falla en app o canal digital,Baja
+Q00852,Transacción no reconocida,Alta
+Q00853,Cobro de comisiones,Media
+Q00854,Transacción no reconocida,Alta
+Q00855,Demora en atención,Media
+Q00856,Transacción no reconocida,Alta
+Q00857,Cobro de comisiones,Media
+Q00858,Otro,Baja
+Q00859,Demora en atención,Media
+Q00860,Cobro de comisiones,Media
+Q00861,Cobro de comisiones,Media
+Q00862,Transacción no reconocida,Alta
+Q00863,Falla en app o canal digital,Baja
+Q00864,Cobro de comisiones,Media
+Q00865,Transacción no reconocida,Alta
+Q00866,Demora en atención,Media
+Q00867,Transacción no reconocida,Alta
+Q00868,Transacción no reconocida,Alta
+Q00869,Transacción no reconocida,Alta
+Q00870,Demora en atención,Media
+Q00871,Cobro de comisiones,Media
+Q00872,Transacción no reconocida,Alta
+Q00873,Transacción mal aplicada,Alta
+Q00874,Transacción no reconocida,Alta
+Q00875,Sin clasificar,
+Q00876,Demora en atención,Media
+Q00877,Transacción no reconocida,Alta
+Q00878,Falla en app o canal digital,Baja
+Q00879,Otro,Baja
+Q00880,Demora en atención,Media
+Q00881,Falla en app o canal digital,Baja
+Q00882,Transacción no reconocida,Alta
+Q00883,Cobro de comisiones,Media
+Q00884,Transacción no reconocida,Alta
+Q00885,Transacción mal aplicada,Alta
+Q00886,Transacción no reconocida,Alta
+Q00887,Demora en atención,Media
+Q00888,Sin clasificar,
+Q00889,Demora en atención,Media
+Q00890,Otro,Baja
+Q00891,Transacción no reconocida,Alta
+Q00892,Demora en atención,Media
+Q00893,Transacción no reconocida,Alta
+Q00894,Transacción no reconocida,Alta
+Q00895,Demora en atención,Media
+Q00896,Cobro de comisiones,Media
+Q00897,Transacción no reconocida,Alta
+Q00898,Transacción no reconocida,Alta
+Q00899,Transacción mal aplicada,Alta
+Q00900,Cobro de comisiones,Media
+Q00901,Transacción no reconocida,Alta
+Q00902,Transacción no reconocida,Alta
+Q00903,Transacción no reconocida,Alta
+Q00904,Transacción no reconocida,Alta
+Q00905,Demora en atención,Media
+Q00906,Cobro de comisiones,Media
+Q00907,Otro,Baja
+Q00908,Transacción no reconocida,Alta
+Q00909,Transacción no reconocida,Alta
+Q00910,Demora en atención,Media
+Q00911,Falla en app o canal digital,Baja
+Q00912,Transacción no reconocida,Alta
+Q00913,Cobro de comisiones,Media
+Q00914,Sin clasificar,
+Q00915,Transacción no reconocida,Alta
+Q00916,Demora en atención,Media
+Q00917,Transacción no reconocida,Alta
+Q00918,Transacción no reconocida,Alta
+Q00919,Transacción no reconocida,Alta
+Q00920,Transacción no reconocida,Alta
+Q00921,Cobro de comisiones,Media
+Q00922,Transacción mal aplicada,Alta
+Q00923,Falla en app o canal digital,Baja
+Q00924,Cobro de comisiones,Media
+Q00925,Transacción no reconocida,Alta
+Q00926,Transacción mal aplicada,Alta
+Q00927,Cobro de comisiones,Media
+Q00928,Transacción no reconocida,Alta
+Q00929,Falla en app o canal digital,Baja
+Q00930,Cobro de comisiones,Media
+Q00931,Transacción no reconocida,Alta
+Q00932,Transacción no reconocida,Alta
+Q00933,Cobro de comisiones,Media
+Q00934,Transacción no reconocida,Alta
+Q00935,Demora en atención,Media
+Q00936,Transacción no reconocida,Alta
+Q00937,Sin clasificar,
+Q00938,Cobro de comisiones,Media
+Q00939,Falla en app o canal digital,Baja
+Q00940,Cobro de comisiones,Media
+Q00941,Cobro de comisiones,Media
+Q00942,Transacción no reconocida,Alta
+Q00943,Otro,Baja
+Q00944,Transacción no reconocida,Alta
+Q00945,Otro,Baja
+Q00946,Demora en atención,Media
+Q00947,Cobro de comisiones,Media
+Q00948,Transacción no reconocida,Alta
+Q00949,Otro,Baja
+Q00950,Falla en app o canal digital,Baja
+Q00951,Transacción no reconocida,Alta
+Q00952,Transacción no reconocida,Alta
+Q00953,Cobro de comisiones,Media
+Q00954,Transacción no reconocida,Alta
+Q00955,Otro,Baja
+Q00956,Transacción mal aplicada,Alta
+Q00957,Cobro de comisiones,Media
+Q00958,Transacción mal aplicada,Alta
+Q00959,Transacción mal aplicada,Alta
+Q00960,Transacción no reconocida,Alta
+Q00961,Otro,Baja
+Q00962,Transacción no reconocida,Alta
+Q00963,Otro,Baja
+Q00964,Sin clasificar,
+Q00965,Cobro de comisiones,Media
+Q00966,Transacción no reconocida,Alta
+Q00967,Demora en atención,Media
+Q00968,Sin clasificar,
+Q00969,Transacción mal aplicada,Alta
+Q00970,Transacción no reconocida,Alta
+Q00971,Falla en app o canal digital,Baja
+Q00972,Falla en app o canal digital,Baja
+Q00973,Transacción no reconocida,Alta
+Q00974,Cobro de comisiones,Media
+Q00975,Falla en app o canal digital,Baja
+Q00976,Falla en app o canal digital,Baja
+Q00977,Transacción no reconocida,Alta
+Q00978,Otro,Baja
+Q00979,Cobro de comisiones,Media
+Q00980,Transacción mal aplicada,Alta
+Q00981,Demora en atención,Media
+Q00982,Cobro de comisiones,Media
+Q00983,Transacción no reconocida,Alta
+Q00984,Transacción no reconocida,Alta
+Q00985,Transacción no reconocida,Alta
+Q00986,Falla en app o canal digital,Baja
+Q00987,Transacción no reconocida,Alta
+Q00988,Cobro de comisiones,Media
+Q00989,Cobro de comisiones,Media
+Q00990,Demora en atención,Media
+Q00991,Transacción mal aplicada,Alta
+Q00992,Demora en atención,Media
+Q00993,Transacción no reconocida,Alta
+Q00994,Otro,Baja
+Q00995,Cobro de comisiones,Media
+Q00996,Transacción no reconocida,Alta
+Q00997,Transacción no reconocida,Alta
+Q00998,Demora en atención,Media
+Q00999,Transacción no reconocida,Alta
+Q01000,Cobro de comisiones,Media
+Q01001,Transacción no reconocida,Alta
+Q01002,Demora en atención,Media
+Q01003,Demora en atención,Media
+Q01004,Demora en atención,Media
+Q01005,Transacción mal aplicada,Alta
+Q01006,Otro,Baja
+Q01007,Transacción no reconocida,Alta
+Q01008,Transacción no reconocida,Alta
+Q01009,Transacción no reconocida,Alta
+Q01010,Cobro de comisiones,Media
+Q01011,Transacción no reconocida,Alta
+Q01012,Transacción no reconocida,Alta
+Q01013,Falla en app o canal digital,Baja
+Q01014,Demora en atención,Media
+Q01015,Falla en app o canal digital,Baja
+Q01016,Transacción no reconocida,Alta
+Q01017,Transacción no reconocida,Alta
+Q01018,Falla en app o canal digital,Baja
+Q01019,Otro,Baja
+Q01020,Transacción no reconocida,Alta
+Q01021,Sin clasificar,
+Q01022,Transacción no reconocida,Alta
+Q01023,Transacción no reconocida,Alta
+Q01024,Transacción no reconocida,Alta
+Q01025,Falla en app o canal digital,Baja
+Q01026,Demora en atención,Media
+Q01027,Transacción no reconocida,Alta
+Q01028,Sin clasificar,
+Q01029,Cobro de comisiones,Media
+Q01030,Demora en atención,Media
+Q01031,Transacción no reconocida,Alta
+Q01032,Otro,Baja
+Q01033,Transacción no reconocida,Alta
+Q01034,Transacción no reconocida,Alta
+Q01035,Cobro de comisiones,Media
+Q01036,Demora en atención,Media
+Q01037,Cobro de comisiones,Media
+Q01038,Transacción no reconocida,Alta
+Q01039,Falla en app o canal digital,Baja
+Q01040,Transacción no reconocida,Alta
+Q01041,Transacción no reconocida,Alta
+Q01042,Transacción no reconocida,Alta
+Q01043,Cobro de comisiones,Media
+Q01044,Transacción no reconocida,Alta
+Q01045,Sin clasificar,
+Q01046,Demora en atención,Media
+Q01047,Cobro de comisiones,Media
+Q01048,Transacción mal aplicada,Alta
+Q01049,Transacción no reconocida,Alta
+Q01050,Cobro de comisiones,Media
+Q01051,Transacción mal aplicada,Alta
+Q01052,Transacción no reconocida,Alta
+Q01053,Transacción no reconocida,Alta
+Q01054,Transacción no reconocida,Alta
+Q01055,Otro,Baja
+Q01056,Transacción no reconocida,Alta
+Q01057,Transacción no reconocida,Alta
+Q01058,Falla en app o canal digital,Baja
+Q01059,Demora en atención,Media
+Q01060,Transacción no reconocida,Alta
+Q01061,Transacción mal aplicada,Alta
+Q01062,Cobro de comisiones,Media
+Q01063,Demora en atención,Media
+Q01064,Demora en atención,Media
+Q01065,Transacción mal aplicada,Alta
+Q01066,Demora en atención,Media
+Q01067,Transacción no reconocida,Alta
+Q01068,Transacción no reconocida,Alta
+Q01069,Demora en atención,Media
+Q01070,Otro,Baja
+Q01071,Falla en app o canal digital,Baja
+Q01072,Transacción mal aplicada,Alta
+Q01073,Demora en atención,Media
+Q01074,Otro,Baja
+Q01075,Falla en app o canal digital,Baja
+Q01076,Demora en atención,Media
+Q01077,Cobro de comisiones,Media
+Q01078,Transacción no reconocida,Alta
+Q01079,Otro,Baja
+Q01080,Transacción no reconocida,Alta
+Q01081,Demora en atención,Media
+Q01082,Transacción mal aplicada,Alta
+Q01083,Cobro de comisiones,Media
+Q01084,Transacción no reconocida,Alta
+Q01085,Transacción no reconocida,Alta
+Q01086,Otro,Baja
+Q01087,Cobro de comisiones,Media
+Q01088,Demora en atención,Media
+Q01089,Falla en app o canal digital,Baja
+Q01090,Demora en atención,Media
+Q01091,Transacción mal aplicada,Alta
+Q01092,Otro,Baja
+Q01093,Cobro de comisiones,Media
+Q01094,Transacción no reconocida,Alta
+Q01095,Transacción no reconocida,Alta
+Q01096,Transacción no reconocida,Alta
+Q01097,Falla en app o canal digital,Baja
+Q01098,Transacción mal aplicada,Alta
+Q01099,Cobro de comisiones,Media
+Q01100,Transacción no reconocida,Alta
+Q01101,Demora en atención,Media
+Q01102,Transacción no reconocida,Alta
+Q01103,Sin clasificar,
+Q01104,Transacción mal aplicada,Alta
+Q01105,Falla en app o canal digital,Baja
+Q01106,Transacción no reconocida,Alta
+Q01107,Transacción mal aplicada,Alta
+Q01108,Cobro de comisiones,Media
+Q01109,Cobro de comisiones,Media
+Q01110,Demora en atención,Media
+Q01111,Transacción no reconocida,Alta
+Q01112,Otro,Baja
+Q01113,Transacción no reconocida,Alta
+Q01114,Otro,Baja
+Q01115,Falla en app o canal digital,Baja
+Q01116,Falla en app o canal digital,Baja
+Q01117,Otro,Baja
+Q01118,Cobro de comisiones,Media
+Q01119,Demora en atención,Media
+Q01120,Otro,Baja
+Q01121,Transacción mal aplicada,Alta
+Q01122,Transacción mal aplicada,Alta
+Q01123,Transacción mal aplicada,Alta
+Q01124,Transacción no reconocida,Alta
+Q01125,Transacción no reconocida,Alta
+Q01126,Sin clasificar,
+Q01127,Cobro de comisiones,Media
+Q01128,Cobro de comisiones,Media
+Q01129,Transacción no reconocida,Alta
+Q01130,Transacción no reconocida,Alta
+Q01131,Transacción no reconocida,Alta
+Q01132,Cobro de comisiones,Media
+Q01133,Transacción no reconocida,Alta
+Q01134,Sin clasificar,
+Q01135,Otro,Baja
+Q01136,Cobro de comisiones,Media
+Q01137,Sin clasificar,
+Q01138,Otro,Baja
+Q01139,Transacción no reconocida,Alta
+Q01140,Sin clasificar,
+Q01141,Sin clasificar,
+Q01142,Sin clasificar,
+Q01143,Otro,Baja
+Q01144,Transacción no reconocida,Alta
+Q01145,Falla en app o canal digital,Baja
+Q01146,Transacción no reconocida,Alta
+Q01147,Transacción no reconocida,Alta
+Q01148,Transacción no reconocida,Alta
+Q01149,Falla en app o canal digital,Baja
+Q01150,Cobro de comisiones,Media
+Q01151,Falla en app o canal digital,Baja
+Q01152,Transacción no reconocida,Alta
+Q01153,Transacción mal aplicada,Alta
+Q01154,Cobro de comisiones,Media
+Q01155,Demora en atención,Media
+Q01156,Cobro de comisiones,Media
+Q01157,Transacción no reconocida,Alta
+Q01158,Transacción no reconocida,Alta
+Q01159,Otro,Baja
+Q01160,Transacción no reconocida,Alta
+Q01161,Transacción no reconocida,Alta
+Q01162,Transacción no reconocida,Alta
+Q01163,Transacción no reconocida,Alta
+Q01164,Cobro de comisiones,Media
+Q01165,Transacción no reconocida,Alta
+Q01166,Cobro de comisiones,Media
+Q01167,Cobro de comisiones,Media
+Q01168,Transacción no reconocida,Alta
+Q01169,Otro,Baja
+Q01170,Transacción no reconocida,Alta
+Q01171,Transacción no reconocida,Alta
+Q01172,Transacción no reconocida,Alta
+Q01173,Cobro de comisiones,Media
+Q01174,Transacción no reconocida,Alta
+Q01175,Cobro de comisiones,Media
+Q01176,Demora en atención,Media
+Q01177,Transacción mal aplicada,Alta
+Q01178,Cobro de comisiones,Media
+Q01179,Transacción no reconocida,Alta
+Q01180,Cobro de comisiones,Media
+Q01181,Transacción mal aplicada,Alta
+Q01182,Transacción mal aplicada,Alta
+Q01183,Demora en atención,Media
+Q01184,Transacción no reconocida,Alta
+Q01185,Transacción no reconocida,Alta
+Q01186,Cobro de comisiones,Media
+Q01187,Demora en atención,Media
+Q01188,Transacción no reconocida,Alta
+Q01189,Demora en atención,Media
+Q01190,Falla en app o canal digital,Baja
+Q01191,Demora en atención,Media
+Q01192,Demora en atención,Media
+Q01193,Demora en atención,Media
+Q01194,Cobro de comisiones,Media
+Q01195,Transacción no reconocida,Alta
+Q01196,Transacción no reconocida,Alta
+Q01197,Sin clasificar,
+Q01198,Transacción no reconocida,Alta
+Q01199,Transacción no reconocida,Alta
+Q01200,Demora en atención,Media
+Q01201,Transacción no reconocida,Alta
+Q01202,Transacción no reconocida,Alta
+Q01203,Transacción no reconocida,Alta
+Q01204,Transacción no reconocida,Alta
+Q01205,Otro,Baja
+Q01206,Transacción no reconocida,Alta
+Q01207,Demora en atención,Media
+Q01208,Transacción no reconocida,Alta
+Q01209,Sin clasificar,
+Q01210,Transacción no reconocida,Alta
+Q01211,Transacción no reconocida,Alta
+Q01212,Cobro de comisiones,Media
+Q01213,Transacción mal aplicada,Alta
+Q01214,Cobro de comisiones,Media
+Q01215,Transacción no reconocida,Alta
+Q01216,Transacción no reconocida,Alta
+Q01217,Transacción no reconocida,Alta
+Q01218,Transacción no reconocida,Alta
+Q01219,Transacción no reconocida,Alta
+Q01220,Transacción no reconocida,Alta
+Q01221,Sin clasificar,
+Q01222,Transacción mal aplicada,Alta
+Q01223,Transacción no reconocida,Alta
+Q01224,Sin clasificar,
+Q01225,Falla en app o canal digital,Baja
+Q01226,Transacción mal aplicada,Alta
+Q01227,Transacción no reconocida,Alta
+Q01228,Otro,Baja
+Q01229,Demora en atención,Media
+Q01230,Transacción no reconocida,Alta
+Q01231,Transacción no reconocida,Alta
+Q01232,Transacción no reconocida,Alta
+Q01233,Transacción mal aplicada,Alta
+Q01234,Transacción no reconocida,Alta
+Q01235,Otro,Baja
+Q01236,Transacción no reconocida,Alta
+Q01237,Otro,Baja
+Q01238,Demora en atención,Media
+Q01239,Cobro de comisiones,Media
+Q01240,Cobro de comisiones,Media
+Q01241,Transacción no reconocida,Alta
+Q01242,Transacción no reconocida,Alta
+Q01243,Sin clasificar,
+Q01244,Otro,Baja
+Q01245,Transacción no reconocida,Alta
+Q01246,Sin clasificar,
+Q01247,Transacción no reconocida,Alta
+Q01248,Transacción no reconocida,Alta
+Q01249,Otro,Baja
+Q01250,Transacción mal aplicada,Alta
+Q01251,Transacción no reconocida,Alta
+Q01252,Transacción no reconocida,Alta
+Q01253,Transacción no reconocida,Alta
+Q01254,Transacción no reconocida,Alta
+Q01255,Transacción no reconocida,Alta
+Q01256,Demora en atención,Media
+Q01257,Sin clasificar,
+Q01258,Falla en app o canal digital,Baja
+Q01259,Falla en app o canal digital,Baja
+Q01260,Otro,Baja
+Q01261,Transacción mal aplicada,Alta
+Q01262,Transacción mal aplicada,Alta
+Q01263,Transacción no reconocida,Alta
+Q01264,Otro,Baja
+Q01265,Transacción no reconocida,Alta
+Q01266,Sin clasificar,
+Q01267,Transacción no reconocida,Alta
+Q01268,Demora en atención,Media
+Q01269,Transacción no reconocida,Alta
+Q01270,Otro,Baja
+Q01271,Otro,Baja
+Q01272,Transacción no reconocida,Alta
+Q01273,Cobro de comisiones,Media
+Q01274,Transacción no reconocida,Alta
+Q01275,Transacción mal aplicada,Alta
+Q01276,Otro,Baja
+Q01277,Demora en atención,Media
+Q01278,Falla en app o canal digital,Baja
+Q01279,Transacción mal aplicada,Alta
+Q01280,Transacción no reconocida,Alta
+Q01281,Transacción no reconocida,Alta
+Q01282,Sin clasificar,
+Q01283,Transacción no reconocida,Alta
+Q01284,Transacción no reconocida,Alta
+Q01285,Demora en atención,Media
+Q01286,Cobro de comisiones,Media
+Q01287,Transacción no reconocida,Alta
+Q01288,Falla en app o canal digital,Baja
+Q01289,Cobro de comisiones,Media
+Q01290,Transacción no reconocida,Alta
+Q01291,Demora en atención,Media
+Q01292,Transacción no reconocida,Alta
+Q01293,Transacción no reconocida,Alta
+Q01294,Demora en atención,Media
+Q01295,Transacción no reconocida,Alta
+Q01296,Transacción no reconocida,Alta
+Q01297,Demora en atención,Media
+Q01298,Cobro de comisiones,Media
+Q01299,Otro,Baja
+Q01300,Transacción no reconocida,Alta
+Q01301,Transacción mal aplicada,Alta
+Q01302,Transacción no reconocida,Alta
+Q01303,Transacción no reconocida,Alta
+Q01304,Transacción mal aplicada,Alta
+Q01305,Falla en app o canal digital,Baja
+Q01306,Transacción mal aplicada,Alta
+Q01307,Transacción mal aplicada,Alta
+Q01308,Otro,Baja
+Q01309,Transacción no reconocida,Alta
+Q01310,Transacción no reconocida,Alta
+Q01311,Transacción no reconocida,Alta
+Q01312,Transacción no reconocida,Alta
+Q01313,Demora en atención,Media
+Q01314,Transacción no reconocida,Alta
+Q01315,Transacción no reconocida,Alta
+Q01316,Transacción no reconocida,Alta
+Q01317,Transacción no reconocida,Alta
+Q01318,Transacción no reconocida,Alta
+Q01319,Sin clasificar,
+Q01320,Otro,Baja
+Q01321,Demora en atención,Media
+Q01322,Cobro de comisiones,Media
+Q01323,Transacción no reconocida,Alta
+Q01324,Transacción no reconocida,Alta
+Q01325,Transacción no reconocida,Alta
+Q01326,Transacción no reconocida,Alta
+Q01327,Falla en app o canal digital,Baja
+Q01328,Transacción no reconocida,Alta
+Q01329,Transacción no reconocida,Alta
+Q01330,Transacción no reconocida,Alta
+Q01331,Transacción no reconocida,Alta
+Q01332,Transacción no reconocida,Alta
+Q01333,Transacción no reconocida,Alta
+Q01334,Transacción no reconocida,Alta
+Q01335,Demora en atención,Media
+Q01336,Transacción no reconocida,Alta
+Q01337,Demora en atención,Media
+Q01338,Falla en app o canal digital,Baja
+Q01339,Cobro de comisiones,Media
+Q01340,Demora en atención,Media
+Q01341,Demora en atención,Media
+Q01342,Transacción no reconocida,Alta
+Q01343,Transacción no reconocida,Alta
+Q01344,Transacción no reconocida,Alta
+Q01345,Demora en atención,Media
+Q01346,Otro,Baja
+Q01347,Transacción no reconocida,Alta
+Q01348,Demora en atención,Media
+Q01349,Transacción no reconocida,Alta
+Q01350,Cobro de comisiones,Media
+Q01351,Demora en atención,Media
+Q01352,Transacción no reconocida,Alta
+Q01353,Transacción no reconocida,Alta
+Q01354,Transacción no reconocida,Alta
+Q01355,Cobro de comisiones,Media
+Q01356,Transacción no reconocida,Alta
+Q01357,Transacción mal aplicada,Alta
+Q01358,Sin clasificar,
+Q01359,Transacción no reconocida,Alta
+Q01360,Falla en app o canal digital,Baja
+Q01361,Demora en atención,Media
+Q01362,Cobro de comisiones,Media
+Q01363,Transacción no reconocida,Alta
+Q01364,Transacción mal aplicada,Alta
+Q01365,Transacción no reconocida,Alta
+Q01366,Demora en atención,Media
+Q01367,Transacción mal aplicada,Alta
+Q01368,Transacción no reconocida,Alta
+Q01369,Transacción no reconocida,Alta
+Q01370,Otro,Baja
+Q01371,Transacción no reconocida,Alta
+Q01372,Cobro de comisiones,Media
+Q01373,Demora en atención,Media
+Q01374,Otro,Baja
+Q01375,Falla en app o canal digital,Baja
+Q01376,Falla en app o canal digital,Baja
+Q01377,Demora en atención,Media
+Q01378,Transacción no reconocida,Alta
+Q01379,Transacción no reconocida,Alta
+Q01380,Transacción no reconocida,Alta
+Q01381,Transacción no reconocida,Alta
+Q01382,Demora en atención,Media
+Q01383,Cobro de comisiones,Media
+Q01384,Sin clasificar,
+Q01385,Transacción no reconocida,Alta
+Q01386,Otro,Baja
+Q01387,Cobro de comisiones,Media
+Q01388,Transacción no reconocida,Alta
+Q01389,Otro,Baja
+Q01390,Transacción no reconocida,Alta
+Q01391,Cobro de comisiones,Media
+Q01392,Cobro de comisiones,Media
+Q01393,Falla en app o canal digital,Baja
+Q01394,Transacción no reconocida,Alta
+Q01395,Transacción no reconocida,Alta
+Q01396,Transacción no reconocida,Alta
+Q01397,Falla en app o canal digital,Baja
+Q01398,Falla en app o canal digital,Baja
+Q01399,Transacción no reconocida,Alta
+Q01400,Transacción mal aplicada,Alta
+Q01401,Transacción mal aplicada,Alta
+Q01402,Transacción no reconocida,Alta
+Q01403,Otro,Baja
+Q01404,Cobro de comisiones,Media
+Q01405,Transacción no reconocida,Alta
+Q01406,Otro,Baja
+Q01407,Demora en atención,Media
+Q01408,Transacción no reconocida,Alta
+Q01409,Transacción no reconocida,Alta
+Q01410,Transacción no reconocida,Alta
+Q01411,Transacción no reconocida,Alta
+Q01412,Demora en atención,Media
+Q01413,Transacción no reconocida,Alta
+Q01414,Transacción no reconocida,Alta
+Q01415,Transacción no reconocida,Alta
+Q01416,Transacción no reconocida,Alta
+Q01417,Transacción mal aplicada,Alta
+Q01418,Transacción no reconocida,Alta
+Q01419,Transacción no reconocida,Alta
+Q01420,Otro,Baja
+Q01421,Falla en app o canal digital,Baja
+Q01422,Transacción mal aplicada,Alta
+Q01423,Demora en atención,Media
+Q01424,Transacción no reconocida,Alta
+Q01425,Transacción no reconocida,Alta
+Q01426,Cobro de comisiones,Media
+Q01427,Otro,Baja
+Q01428,Demora en atención,Media
+Q01429,Cobro de comisiones,Media
+Q01430,Cobro de comisiones,Media
+Q01431,Transacción no reconocida,Alta
+Q01432,Falla en app o canal digital,Baja
+Q01433,Demora en atención,Media
+Q01434,Cobro de comisiones,Media
+Q01435,Demora en atención,Media
+Q01436,Transacción no reconocida,Alta
+Q01437,Sin clasificar,
+Q01438,Demora en atención,Media
+Q01439,Transacción no reconocida,Alta
+Q01440,Transacción no reconocida,Alta
+Q01441,Cobro de comisiones,Media
+Q01442,Cobro de comisiones,Media
+Q01443,Transacción no reconocida,Alta
+Q01444,Transacción no reconocida,Alta
+Q01445,Transacción no reconocida,Alta
+Q01446,Transacción no reconocida,Alta
+Q01447,Demora en atención,Media
+Q01448,Otro,Baja
+Q01449,Sin clasificar,
+Q01450,Transacción no reconocida,Alta
+Q01451,Sin clasificar,
+Q01452,Transacción mal aplicada,Alta
+Q01453,Transacción no reconocida,Alta
+Q01454,Falla en app o canal digital,Baja
+Q01455,Transacción no reconocida,Alta
+Q01456,Falla en app o canal digital,Baja
+Q01457,Sin clasificar,
+Q01458,Demora en atención,Media
+Q01459,Demora en atención,Media
+Q01460,Transacción no reconocida,Alta
+Q01461,Transacción no reconocida,Alta
+Q01462,Demora en atención,Media
+Q01463,Falla en app o canal digital,Baja
+Q01464,Sin clasificar,
+Q01465,Falla en app o canal digital,Baja
+Q01466,Cobro de comisiones,Media
+Q01467,Otro,Baja
+Q01468,Transacción no reconocida,Alta
+Q01469,Transacción no reconocida,Alta
+Q01470,Transacción no reconocida,Alta
+Q01471,Falla en app o canal digital,Baja
+Q01472,Cobro de comisiones,Media
+Q01473,Demora en atención,Media
+Q01474,Otro,Baja
+Q01475,Transacción no reconocida,Alta
+Q01476,Cobro de comisiones,Media
+Q01477,Cobro de comisiones,Media
+Q01478,Transacción no reconocida,Alta
+Q01479,Cobro de comisiones,Media
+Q01480,Sin clasificar,
+Q01481,Transacción mal aplicada,Alta
+Q01482,Demora en atención,Media
+Q01483,Transacción no reconocida,Alta
+Q01484,Falla en app o canal digital,Baja
+Q01485,Transacción mal aplicada,Alta
+Q01486,Transacción no reconocida,Alta
+Q01487,Transacción no reconocida,Alta
+Q01488,Transacción no reconocida,Alta
+Q01489,Transacción no reconocida,Alta
+Q01490,Otro,Baja
+Q01491,Transacción no reconocida,Alta
+Q01492,Transacción mal aplicada,Alta
+Q01493,Transacción no reconocida,Alta
+Q01494,Transacción no reconocida,Alta
+Q01495,Transacción no reconocida,Alta
+Q01496,Transacción no reconocida,Alta
+Q01497,Falla en app o canal digital,Baja
+Q01498,Demora en atención,Media
+Q01499,Transacción no reconocida,Alta
+Q01500,Demora en atención,Media
+Q01501,Transacción no reconocida,Alta
+Q01502,Falla en app o canal digital,Baja
+Q01503,Transacción no reconocida,Alta
+Q01504,Demora en atención,Media
+Q01505,Otro,Baja
+Q01506,Transacción no reconocida,Alta
+Q01507,Demora en atención,Media
+Q01508,Transacción mal aplicada,Alta
+Q01509,Transacción mal aplicada,Alta
+Q01510,Otro,Baja
+Q01511,Cobro de comisiones,Media
+Q01512,Demora en atención,Media
+Q01513,Cobro de comisiones,Media
+Q01514,Transacción mal aplicada,Alta
+Q01515,Demora en atención,Media
+Q01516,Transacción no reconocida,Alta
+Q01517,Transacción no reconocida,Alta
+Q01518,Falla en app o canal digital,Baja
+Q01519,Cobro de comisiones,Media
+Q01520,Cobro de comisiones,Media
+Q01521,Demora en atención,Media
+Q01522,Transacción mal aplicada,Alta
+Q01523,Transacción no reconocida,Alta
+Q01524,Sin clasificar,
+Q01525,Transacción no reconocida,Alta
+Q01526,Cobro de comisiones,Media
+Q01527,Demora en atención,Media
+Q01528,Transacción mal aplicada,Alta
+Q01529,Demora en atención,Media
+Q01530,Transacción no reconocida,Alta
+Q01531,Cobro de comisiones,Media
+Q01532,Cobro de comisiones,Media
+Q01533,Transacción no reconocida,Alta
+Q01534,Cobro de comisiones,Media
+Q01535,Falla en app o canal digital,Baja
+Q01536,Falla en app o canal digital,Baja
+Q01537,Transacción mal aplicada,Alta
+Q01538,Transacción no reconocida,Alta
+Q01539,Otro,Baja
+Q01540,Transacción no reconocida,Alta
+Q01541,Transacción no reconocida,Alta
+Q01542,Demora en atención,Media
+Q01543,Demora en atención,Media
+Q01544,Transacción no reconocida,Alta
+Q01545,Demora en atención,Media
+Q01546,Cobro de comisiones,Media
+Q01547,Sin clasificar,
+Q01548,Cobro de comisiones,Media
+Q01549,Transacción mal aplicada,Alta
+Q01550,Falla en app o canal digital,Baja
+Q01551,Cobro de comisiones,Media
+Q01552,Transacción no reconocida,Alta
+Q01553,Transacción no reconocida,Alta
+Q01554,Transacción no reconocida,Alta
+Q01555,Transacción no reconocida,Alta
+Q01556,Transacción no reconocida,Alta
+Q01557,Otro,Baja
+Q01558,Transacción no reconocida,Alta
+Q01559,Transacción no reconocida,Alta
+Q01560,Cobro de comisiones,Media
+Q01561,Transacción no reconocida,Alta
+Q01562,Cobro de comisiones,Media
+Q01563,Demora en atención,Media
+Q01564,Cobro de comisiones,Media
+Q01565,Transacción no reconocida,Alta
+Q01566,Transacción no reconocida,Alta
+Q01567,Cobro de comisiones,Media
+Q01568,Cobro de comisiones,Media
+Q01569,Demora en atención,Media
+Q01570,Transacción no reconocida,Alta
+Q01571,Transacción mal aplicada,Alta
+Q01572,Transacción no reconocida,Alta
+Q01573,Cobro de comisiones,Media
+Q01574,Demora en atención,Media
+Q01575,Demora en atención,Media
+Q01576,Transacción no reconocida,Alta
+Q01577,Transacción no reconocida,Alta
+Q01578,Demora en atención,Media
+Q01579,Transacción no reconocida,Alta
+Q01580,Transacción mal aplicada,Alta
+Q01581,Cobro de comisiones,Media
+Q01582,Falla en app o canal digital,Baja
+Q01583,Demora en atención,Media
+Q01584,Otro,Baja
+Q01585,Transacción no reconocida,Alta
+Q01586,Sin clasificar,
+Q01587,Transacción no reconocida,Alta
+Q01588,Transacción no reconocida,Alta
+Q01589,Transacción no reconocida,Alta
+Q01590,Falla en app o canal digital,Baja
+Q01591,Demora en atención,Media
+Q01592,Transacción no reconocida,Alta
+Q01593,Transacción no reconocida,Alta
+Q01594,Transacción no reconocida,Alta
+Q01595,Demora en atención,Media
+Q01596,Otro,Baja
+Q01597,Otro,Baja
+Q01598,Demora en atención,Media
+Q01599,Otro,Baja
+Q01600,Transacción no reconocida,Alta
+Q01601,Falla en app o canal digital,Baja
+Q01602,Demora en atención,Media
+Q01603,Demora en atención,Media
+Q01604,Transacción mal aplicada,Alta
+Q01605,Falla en app o canal digital,Baja
+Q01606,Otro,Baja
+Q01607,Demora en atención,Media
+Q01608,Falla en app o canal digital,Baja
+Q01609,Otro,Baja
+Q01610,Demora en atención,Media
+Q01611,Sin clasificar,
+Q01612,Transacción mal aplicada,Alta
+Q01613,Transacción no reconocida,Alta
+Q01614,Otro,Baja
+Q01615,Transacción mal aplicada,Alta
+Q01616,Demora en atención,Media
+Q01617,Transacción no reconocida,Alta
+Q01618,Transacción no reconocida,Alta
+Q01619,Cobro de comisiones,Media
+Q01620,Transacción no reconocida,Alta
+Q01621,Sin clasificar,
+Q01622,Transacción mal aplicada,Alta
+Q01623,Cobro de comisiones,Media
+Q01624,Otro,Baja
+Q01625,Transacción no reconocida,Alta
+Q01626,Transacción no reconocida,Alta
+Q01627,Cobro de comisiones,Media
+Q01628,Transacción no reconocida,Alta
+Q01629,Otro,Baja
+Q01630,Falla en app o canal digital,Baja
+Q01631,Transacción no reconocida,Alta
+Q01632,Cobro de comisiones,Media
+Q01633,Falla en app o canal digital,Baja
+Q01634,Transacción no reconocida,Alta
+Q01635,Transacción mal aplicada,Alta
+Q01636,Transacción no reconocida,Alta
+Q01637,Transacción no reconocida,Alta
+Q01638,Transacción no reconocida,Alta
+Q01639,Transacción mal aplicada,Alta
+Q01640,Falla en app o canal digital,Baja
+Q01641,Otro,Baja
+Q01642,Otro,Baja
+Q01643,Falla en app o canal digital,Baja
+Q01644,Transacción no reconocida,Alta
+Q01645,Transacción no reconocida,Alta
+Q01646,Cobro de comisiones,Media
+Q01647,Otro,Baja
+Q01648,Transacción no reconocida,Alta
+Q01649,Demora en atención,Media
+Q01650,Cobro de comisiones,Media
+Q01651,Transacción no reconocida,Alta
+Q01652,Otro,Baja
+Q01653,Otro,Baja
+Q01654,Transacción no reconocida,Alta
+Q01655,Transacción no reconocida,Alta
+Q01656,Cobro de comisiones,Media
+Q01657,Falla en app o canal digital,Baja
+Q01658,Demora en atención,Media
+Q01659,Transacción no reconocida,Alta
+Q01660,Sin clasificar,
+Q01661,Transacción mal aplicada,Alta
+Q01662,Transacción no reconocida,Alta
+Q01663,Transacción mal aplicada,Alta
+Q01664,Transacción no reconocida,Alta
+Q01665,Transacción no reconocida,Alta
+Q01666,Demora en atención,Media
+Q01667,Otro,Baja
+Q01668,Otro,Baja
+Q01669,Cobro de comisiones,Media
+Q01670,Transacción no reconocida,Alta
+Q01671,Sin clasificar,
+Q01672,Cobro de comisiones,Media
+Q01673,Otro,Baja
+Q01674,Cobro de comisiones,Media
+Q01675,Falla en app o canal digital,Baja
+Q01676,Transacción mal aplicada,Alta
+Q01677,Falla en app o canal digital,Baja
+Q01678,Transacción mal aplicada,Alta
+Q01679,Transacción mal aplicada,Alta
+Q01680,Cobro de comisiones,Media
+Q01681,Falla en app o canal digital,Baja
+Q01682,Transacción no reconocida,Alta
+Q01683,Transacción no reconocida,Alta
+Q01684,Otro,Baja
+Q01685,Transacción no reconocida,Alta
+Q01686,Transacción no reconocida,Alta
+Q01687,Cobro de comisiones,Media
+Q01688,Cobro de comisiones,Media
+Q01689,Transacción no reconocida,Alta
+Q01690,Transacción no reconocida,Alta
+Q01691,Transacción no reconocida,Alta
+Q01692,Transacción no reconocida,Alta
+Q01693,Transacción no reconocida,Alta
+Q01694,Transacción no reconocida,Alta
+Q01695,Transacción no reconocida,Alta
+Q01696,Transacción no reconocida,Alta
+Q01697,Demora en atención,Media
+Q01698,Demora en atención,Media
+Q01699,Demora en atención,Media
+Q01700,Falla en app o canal digital,Baja
+Q01701,Transacción no reconocida,Alta
+Q01702,Transacción no reconocida,Alta
+Q01703,Sin clasificar,
+Q01704,Transacción no reconocida,Alta
+Q01705,Transacción mal aplicada,Alta
+Q01706,Transacción no reconocida,Alta
+Q01707,Transacción no reconocida,Alta
+Q01708,Demora en atención,Media
+Q01709,Transacción mal aplicada,Alta
+Q01710,Otro,Baja
+Q01711,Sin clasificar,
+Q01712,Falla en app o canal digital,Baja
+Q01713,Otro,Baja
+Q01714,Transacción no reconocida,Alta
+Q01715,Transacción no reconocida,Alta
+Q01716,Demora en atención,Media
+Q01717,Falla en app o canal digital,Baja
+Q01718,Falla en app o canal digital,Baja
+Q01719,Demora en atención,Media
+Q01720,Transacción no reconocida,Alta
+Q01721,Cobro de comisiones,Media
+Q01722,Transacción no reconocida,Alta
+Q01723,Transacción no reconocida,Alta
+Q01724,Sin clasificar,
+Q01725,Transacción no reconocida,Alta
+Q01726,Transacción no reconocida,Alta
+Q01727,Demora en atención,Media
+Q01728,Transacción mal aplicada,Alta
+Q01729,Transacción no reconocida,Alta
+Q01730,Transacción no reconocida,Alta
+Q01731,Transacción no reconocida,Alta
+Q01732,Demora en atención,Media
+Q01733,Transacción mal aplicada,Alta
+Q01734,Sin clasificar,
+Q01735,Transacción no reconocida,Alta
+Q01736,Transacción no reconocida,Alta
+Q01737,Transacción no reconocida,Alta
+Q01738,Falla en app o canal digital,Baja
+Q01739,Cobro de comisiones,Media
+Q01740,Transacción mal aplicada,Alta
+Q01741,Cobro de comisiones,Media
+Q01742,Transacción mal aplicada,Alta
+Q01743,Transacción no reconocida,Alta
+Q01744,Transacción no reconocida,Alta
+Q01745,Transacción no reconocida,Alta
+Q01746,Sin clasificar,
+Q01747,Otro,Baja
+Q01748,Transacción no reconocida,Alta
+Q01749,Cobro de comisiones,Media
+Q01750,Transacción mal aplicada,Alta
+Q01751,Transacción no reconocida,Alta
+Q01752,Transacción no reconocida,Alta
+Q01753,Otro,Baja
+Q01754,Sin clasificar,
+Q01755,Cobro de comisiones,Media
+Q01756,Cobro de comisiones,Media
+Q01757,Transacción no reconocida,Alta
+Q01758,Transacción mal aplicada,Alta
+Q01759,Otro,Baja
+Q01760,Transacción mal aplicada,Alta
+Q01761,Transacción no reconocida,Alta
+Q01762,Otro,Baja
+Q01763,Otro,Baja
+Q01764,Transacción mal aplicada,Alta
+Q01765,Cobro de comisiones,Media
+Q01766,Transacción mal aplicada,Alta
+Q01767,Transacción no reconocida,Alta
+Q01768,Demora en atención,Media
+Q01769,Otro,Baja
+Q01770,Transacción no reconocida,Alta
+Q01771,Transacción no reconocida,Alta
+Q01772,Sin clasificar,
+Q01773,Cobro de comisiones,Media
+Q01774,Transacción no reconocida,Alta
+Q01775,Transacción mal aplicada,Alta
+Q01776,Otro,Baja
+Q01777,Cobro de comisiones,Media
+Q01778,Demora en atención,Media
+Q01779,Transacción no reconocida,Alta
+Q01780,Transacción mal aplicada,Alta
+Q01781,Transacción no reconocida,Alta
+Q01782,Transacción mal aplicada,Alta
+Q01783,Falla en app o canal digital,Baja
+Q01784,Transacción mal aplicada,Alta
+Q01785,Otro,Baja
+Q01786,Falla en app o canal digital,Baja
+Q01787,Transacción no reconocida,Alta
+Q01788,Cobro de comisiones,Media
+Q01789,Transacción no reconocida,Alta
+Q01790,Cobro de comisiones,Media
+Q01791,Transacción no reconocida,Alta
+Q01792,Otro,Baja
+Q01793,Falla en app o canal digital,Baja
+Q01794,Cobro de comisiones,Media
+Q01795,Demora en atención,Media
+Q01796,Transacción no reconocida,Alta
+Q01797,Transacción no reconocida,Alta
+Q01798,Otro,Baja
+Q01799,Transacción no reconocida,Alta
+Q01800,Demora en atención,Media
+Q01801,Falla en app o canal digital,Baja
+Q01802,Falla en app o canal digital,Baja
+Q01803,Cobro de comisiones,Media
+Q01804,Demora en atención,Media
+Q01805,Transacción no reconocida,Alta
+Q01806,Demora en atención,Media
+Q01807,Demora en atención,Media
+Q01808,Cobro de comisiones,Media
+Q01809,Sin clasificar,
+Q01810,Falla en app o canal digital,Baja
+Q01811,Cobro de comisiones,Media
+Q01812,Transacción no reconocida,Alta
+Q01813,Transacción mal aplicada,Alta
+Q01814,Falla en app o canal digital,Baja
+Q01815,Sin clasificar,
+Q01816,Demora en atención,Media
+Q01817,Cobro de comisiones,Media
+Q01818,Transacción no reconocida,Alta
+Q01819,Transacción no reconocida,Alta
+Q01820,Demora en atención,Media
+Q01821,Sin clasificar,
+Q01822,Transacción no reconocida,Alta
+Q01823,Otro,Baja
+Q01824,Demora en atención,Media
+Q01825,Cobro de comisiones,Media
+Q01826,Otro,Baja
+Q01827,Cobro de comisiones,Media
+Q01828,Transacción mal aplicada,Alta
+Q01829,Otro,Baja
+Q01830,Demora en atención,Media
+Q01831,Sin clasificar,
+Q01832,Otro,Baja
+Q01833,Sin clasificar,
+Q01834,Demora en atención,Media
+Q01835,Cobro de comisiones,Media
+Q01836,Cobro de comisiones,Media
+Q01837,Transacción mal aplicada,Alta
+Q01838,Falla en app o canal digital,Baja
+Q01839,Demora en atención,Media
+Q01840,Transacción no reconocida,Alta
+Q01841,Falla en app o canal digital,Baja
+Q01842,Transacción mal aplicada,Alta
+Q01843,Cobro de comisiones,Media
+Q01844,Demora en atención,Media
+Q01845,Transacción no reconocida,Alta
+Q01846,Cobro de comisiones,Media
+Q01847,Demora en atención,Media
+Q01848,Transacción no reconocida,Alta
+Q01849,Otro,Baja
+Q01850,Transacción no reconocida,Alta
+Q01851,Demora en atención,Media
+Q01852,Transacción no reconocida,Alta
+Q01853,Cobro de comisiones,Media
+Q01854,Otro,Baja
+Q01855,Otro,Baja
+Q01856,Otro,Baja
+Q01857,Cobro de comisiones,Media
+Q01858,Transacción no reconocida,Alta
+Q01859,Transacción no reconocida,Alta
+Q01860,Cobro de comisiones,Media
+Q01861,Demora en atención,Media
+Q01862,Falla en app o canal digital,Baja
+Q01863,Otro,Baja
+Q01864,Cobro de comisiones,Media
+Q01865,Cobro de comisiones,Media
+Q01866,Otro,Baja
+Q01867,Transacción no reconocida,Alta
+Q01868,Transacción no reconocida,Alta
+Q01869,Otro,Baja
+Q01870,Cobro de comisiones,Media
+Q01871,Sin clasificar,
+Q01872,Cobro de comisiones,Media
+Q01873,Transacción no reconocida,Alta
+Q01874,Transacción mal aplicada,Alta
+Q01875,Transacción no reconocida,Alta
+Q01876,Transacción no reconocida,Alta
+Q01877,Sin clasificar,
+Q01878,Otro,Baja
+Q01879,Transacción no reconocida,Alta
+Q01880,Transacción no reconocida,Alta
+Q01881,Transacción mal aplicada,Alta
+Q01882,Transacción no reconocida,Alta
+Q01883,Transacción no reconocida,Alta
+Q01884,Demora en atención,Media
+Q01885,Sin clasificar,
+Q01886,Cobro de comisiones,Media
+Q01887,Sin clasificar,
+Q01888,Transacción no reconocida,Alta
+Q01889,Transacción no reconocida,Alta
+Q01890,Transacción no reconocida,Alta
+Q01891,Transacción no reconocida,Alta
+Q01892,Falla en app o canal digital,Baja
+Q01893,Transacción no reconocida,Alta
+Q01894,Sin clasificar,
+Q01895,Transacción no reconocida,Alta
+Q01896,Transacción mal aplicada,Alta
+Q01897,Demora en atención,Media
+Q01898,Demora en atención,Media
+Q01899,Falla en app o canal digital,Baja
+Q01900,Demora en atención,Media
+Q01901,Demora en atención,Media
+Q01902,Otro,Baja
+Q01903,Sin clasificar,
+Q01904,Demora en atención,Media
+Q01905,Transacción no reconocida,Alta
+Q01906,Transacción no reconocida,Alta
+Q01907,Cobro de comisiones,Media
+Q01908,Transacción no reconocida,Alta
+Q01909,Transacción mal aplicada,Alta
+Q01910,Transacción no reconocida,Alta
+Q01911,Falla en app o canal digital,Baja
+Q01912,Transacción mal aplicada,Alta
+Q01913,Transacción no reconocida,Alta
+Q01914,Transacción no reconocida,Alta
+Q01915,Demora en atención,Media
+Q01916,Transacción no reconocida,Alta
+Q01917,Transacción mal aplicada,Alta
+Q01918,Transacción no reconocida,Alta
+Q01919,Cobro de comisiones,Media
+Q01920,Transacción no reconocida,Alta
+Q01921,Transacción mal aplicada,Alta
+Q01922,Transacción no reconocida,Alta
+Q01923,Demora en atención,Media
+Q01924,Transacción no reconocida,Alta
+Q01925,Cobro de comisiones,Media
+Q01926,Otro,Baja
+Q01927,Transacción no reconocida,Alta
+Q01928,Falla en app o canal digital,Baja
+Q01929,Otro,Baja
+Q01930,Demora en atención,Media
+Q01931,Demora en atención,Media
+Q01932,Cobro de comisiones,Media
+Q01933,Sin clasificar,
+Q01934,Demora en atención,Media
+Q01935,Transacción no reconocida,Alta
+Q01936,Transacción mal aplicada,Alta
+Q01937,Transacción mal aplicada,Alta
+Q01938,Demora en atención,Media
+Q01939,Cobro de comisiones,Media
+Q01940,Transacción no reconocida,Alta
+Q01941,Cobro de comisiones,Media
+Q01942,Transacción no reconocida,Alta
+Q01943,Demora en atención,Media
+Q01944,Cobro de comisiones,Media
+Q01945,Demora en atención,Media
+Q01946,Falla en app o canal digital,Baja
+Q01947,Transacción no reconocida,Alta
+Q01948,Transacción no reconocida,Alta
+Q01949,Cobro de comisiones,Media
+Q01950,Transacción mal aplicada,Alta
+Q01951,Otro,Baja
+Q01952,Falla en app o canal digital,Baja
+Q01953,Sin clasificar,
+Q01954,Transacción no reconocida,Alta
+Q01955,Falla en app o canal digital,Baja
+Q01956,Transacción no reconocida,Alta
+Q01957,Otro,Baja
+Q01958,Transacción no reconocida,Alta
+Q01959,Transacción no reconocida,Alta
+Q01960,Transacción no reconocida,Alta
+Q01961,Cobro de comisiones,Media
+Q01962,Transacción mal aplicada,Alta
+Q01963,Cobro de comisiones,Media
+Q01964,Transacción no reconocida,Alta
+Q01965,Cobro de comisiones,Media
+Q01966,Transacción no reconocida,Alta
+Q01967,Transacción no reconocida,Alta
+Q01968,Cobro de comisiones,Media
+Q01969,Transacción mal aplicada,Alta
+Q01970,Falla en app o canal digital,Baja
+Q01971,Cobro de comisiones,Media
+Q01972,Transacción no reconocida,Alta
+Q01973,Otro,Baja
+Q01974,Transacción no reconocida,Alta
+Q01975,Otro,Baja
+Q01976,Transacción mal aplicada,Alta
+Q01977,Demora en atención,Media
+Q01978,Cobro de comisiones,Media
+Q01979,Otro,Baja
+Q01980,Sin clasificar,
+Q01981,Transacción no reconocida,Alta
+Q01982,Transacción no reconocida,Alta
+Q01983,Demora en atención,Media
+Q01984,Transacción no reconocida,Alta
+Q01985,Demora en atención,Media
+Q01986,Transacción no reconocida,Alta
+Q01987,Cobro de comisiones,Media
+Q01988,Transacción no reconocida,Alta
+Q01989,Transacción mal aplicada,Alta
+Q01990,Transacción no reconocida,Alta
+Q01991,Transacción no reconocida,Alta
+Q01992,Transacción no reconocida,Alta
+Q01993,Transacción mal aplicada,Alta
+Q01994,Transacción no reconocida,Alta
+Q01995,Transacción no reconocida,Alta
+Q01996,Transacción no reconocida,Alta
+Q01997,Transacción mal aplicada,Alta
+Q01998,Transacción no reconocida,Alta
+Q01999,Demora en atención,Media
+Q02000,Sin clasificar,
