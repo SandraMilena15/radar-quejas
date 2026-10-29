@@ -23,13 +23,15 @@ Todos los datos son **sintéticos**: 2.000 quejas en 4 semanas, generadas con
 IA y calibradas con proporciones de la SFC. Incluyen errores de ortografía,
 ironía, comentarios vacíos y un patrón sembrado para probar la detección.
 El motivo real está en un archivo separado para evaluar el clasificador sin
-que lo vea.  [Diccionario de datos](data/diccionario_datos.md)
+que lo vea. [Diccionario de datos](data/diccionario_datos.md)
 
 | Validación | Resultado |
 |---|---|
 | Filas únicas | 2.000 |
-| Transacción no reconocida | 39 % |
-| Pico sembrado en semana 4 | Sí, 60.21 % |
+| Periodo | 28 sep – 25 oct 2026 (4 semanas completas; fecha de corte 29 oct) |
+| Transacción no reconocida | 39 % (780 quejas) |
+| Comentarios vacíos | 5 % (100 quejas) |
+| Pico sembrado en semana 4 | Sí: +60,6 % en no reconocidas con tarjeta por app frente al promedio de las semanas 1 a 3 |
 
 ## Próximos pasos
 - [ ] Semana 2: agente clasificador en n8n con salida estructurada
