@@ -23,7 +23,7 @@ Todos los datos son **sintéticos**: 2.000 quejas en 4 semanas, generadas con
 IA y calibradas con proporciones de la SFC. Incluyen errores de ortografía,
 ironía, comentarios vacíos y un patrón sembrado para probar la detección.
 El motivo real está en un archivo separado para evaluar el clasificador sin
-que lo vea.[Diccionario de datos](data/diccionario_datos.md)
+que lo vea. [Diccionario de datos](data/diccionario_datos.md)
 
 | Validación | Resultado |
 |---|---|
