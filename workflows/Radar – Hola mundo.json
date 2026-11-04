@@ -12,7 +12,7 @@
               "fieldOptions": {
                 "values": [
                   {
-                    "option": "=App"
+                    "option": "App"
                   },
                   {
                     "option": "Línea telefónica"
@@ -81,6 +81,7 @@
     },
     {
       "parameters": {
+        "modelName": "models/gemini-2.5-flash",
         "options": {}
       },
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
@@ -156,7 +157,7 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "0a295065-3dc3-4d4f-a164-65323c08a7cd",
+  "versionId": "0e7ca0b2-034b-449e-9f58-51cc58acac42",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "4a0984e86c0b71e3ac326f701b8406cdea8250cbf684f82dc90658e9809e8eb4"
