@@ -1,0 +1,167 @@
+{
+  "name": "Radar – Hola mundo",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Registro de queja – PagoYa",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "canal",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "=App"
+                  },
+                  {
+                    "option": "Línea telefónica"
+                  },
+                  {
+                    "option": "Correo"
+                  },
+                  {
+                    "option": "SFC"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "producto",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Tarjeta"
+                  },
+                  {
+                    "option": "Cuenta"
+                  },
+                  {
+                    "option": "Transferencia"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "comentario",
+              "fieldType": "textarea",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.6,
+      "position": [
+        0,
+        0
+      ],
+      "id": "10a8eceb-2fe4-4101-a958-f5ffc9436a98",
+      "name": "On form submission",
+      "webhookId": "b24ea028-d5e2-475a-bdb8-2ff818b6d8a1"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Eres analista de Customer Experience de PagoYa, una fintech colombiana.\n\nResume esta queja en una sola frase de máximo 20 palabras, en español,\nsin inventar datos que no estén en el texto.\n\nCanal: {{ $json.canal }}\nProducto: {{ $json.producto }}\n<queja>\n{{ $json.comentario }}\n</queja>",
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.9,
+      "position": [
+        224,
+        0
+      ],
+      "id": "14b0e4a7-2be0-410f-9c80-6d0ee706483a",
+      "name": "Basic LLM Chain"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1.2,
+      "position": [
+        160,
+        208
+      ],
+      "id": "c53504b7-934a-4b54-830a-750e77cdca22",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "L6CWAkLKoZRSbONG",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "completion",
+        "completionTitle": "=Resumen de tu queja: {{ $json.text }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.form",
+      "typeVersion": 2.5,
+      "position": [
+        496,
+        0
+      ],
+      "id": "6c628fc1-1309-44aa-ae4c-5691025bde52",
+      "name": "Form",
+      "webhookId": "311a8552-9237-4be3-82ca-d5966b375d8d"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Basic LLM Chain": {
+      "main": [
+        [
+          {
+            "node": "Form",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "0a295065-3dc3-4d4f-a164-65323c08a7cd",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "4a0984e86c0b71e3ac326f701b8406cdea8250cbf684f82dc90658e9809e8eb4"
+  },
+  "nodeGroups": [],
+  "id": "2Y1RcaUz5cS0HKOg",
+  "tags": []
+}
