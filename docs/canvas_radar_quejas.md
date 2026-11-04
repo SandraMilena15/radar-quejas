@@ -102,6 +102,7 @@ NPS se mantiene como indicador de contexto, pero no se mide con este radar porqu
 - La IA inventa cifras o causas en los hallazgos (mitigación: solo usa datos de las vistas SQL y el analista valida antes de enviar).
 - Base de conocimiento desactualizada o con vacíos; la taxonomía es simplificada y no es el catálogo oficial de la SFC (mitigación: revisión de los documentos cada vez que cambie la política, con fecha de actualización).
 - Retraso: el informe es semanal y una queja de fraude puede esperar hasta 7 días para aparecer.
+- El proveedor puede retirar o saturar el modelo (mitigación: reintentos automáticos, modelo de respaldo y nombre del modelo documentado en cada prueba).
 
 **Límites**
 - La IA solo clasifica y redacta; no decide, no responde al cliente ni aprueba reembolsos.
