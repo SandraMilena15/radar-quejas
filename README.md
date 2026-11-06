@@ -33,10 +33,22 @@ que lo vea. [Diccionario de datos](data/diccionario_datos.md)
 | Comentarios vacíos | 5 % (100 quejas) |
 | Pico sembrado en semana 4 | Sí: +60,6 % en no reconocidas con tarjeta por app frente al promedio de las semanas 1 a 3 |
 
-## Próximos pasos
-- [ ] Semana 2: agente clasificador en n8n con salida estructurada
+## Avance
+- [x] Semana 1: canvas, base de conocimiento y dataset sintético validado
+- [x] Semana 2 (en curso): clasificador en n8n con salida estructurada en JSON
 - [ ] Semana 3: base de datos en Supabase y vistas SQL de KPI
 - [ ] Semana 4: interfaz, dashboard y video demo
+
+## Primera medición (20 quejas, Claude Haiku 5.5)
+| Medida | Resultado |
+|---|---|
+| Precisión por motivo | 19/20 (95 %) |
+| Quejas graves no detectadas | 0 de 9 |
+| Errores escalados a revisión por duda | 1 de 1 |
+
+El único error fue un caso ambiguo que el modelo marcó con duda; la regla de
+negocio lo subió a prioridad alta para revisión humana.
+[Ver medición](evals/medicion_clasificacion_20.xlsx)
 
 ## Autora
 Sandra Milena López · [LinkedIn](https://linkedin.com/in/smilenalopezpuentes)
