@@ -35,20 +35,22 @@ que lo vea. [Diccionario de datos](data/diccionario_datos.md)
 
 ## Avance
 - [x] Semana 1: canvas, base de conocimiento y dataset sintético validado
-- [x] Semana 2 (en curso): clasificador en n8n con salida estructurada en JSON
+- [x] Semana 2: flujos en n8n
+  - Semáforo de plazos (reglas, sin IA)
+  - Clasificador con salida estructurada en JSON (19/20 en la primera medición)
+  - Asistente de consulta de la política con RAG (10/10 preguntas)
+  - Aprobación humana de las quejas críticas antes del informe
 - [ ] Semana 3: base de datos en Supabase y vistas SQL de KPI
 - [ ] Semana 4: interfaz, dashboard y video demo
 
-## Primera medición (20 quejas, Claude Haiku 5.5)
-| Medida | Resultado |
+## Flujos
+| Archivo | Qué hace |
 |---|---|
-| Precisión por motivo | 19/20 (95 %) |
-| Quejas graves no detectadas | 0 de 9 |
-| Errores escalados a revisión por duda | 1 de 1 |
+| `workflows/02_semaforo_plazos.json` | Calcula días hábiles y separa vencidas, en riesgo y en plazo |
+| `workflows/03_clasificador.json` | Clasifica quejas en JSON; la prioridad sale de una regla |
+| `workflows/04_rag_politica.json` | Responde sobre la política citando la fuente |
+| `workflows/05_aprobacion_humana.json` | Detiene el flujo hasta que una analista aprueba o devuelve |
 
-El único error fue un caso ambiguo que el modelo marcó con duda; la regla de
-negocio lo subió a prioridad alta para revisión humana.
-[Ver medición](evals/medicion_clasificacion_20.xlsx)
 
 ## Autora
 Sandra Milena López · [LinkedIn](https://linkedin.com/in/smilenalopezpuentes)
