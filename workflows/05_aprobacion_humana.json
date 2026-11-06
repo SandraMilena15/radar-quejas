@@ -317,9 +317,6 @@
         "operation": "completion",
         "completionTitle": "Informe aprobado",
         "completionMessage": "=Informe aprobado por {{ $json.revisor }}. Se enviará al líder de CX.",
-        "limitWaitTime": true,
-        "resumeAmount": 2,
-        "resumeUnit": "days",
         "options": {}
       },
       "type": "n8n-nodes-base.form",
@@ -337,9 +334,6 @@
         "operation": "completion",
         "completionTitle": "Informe devuelto",
         "completionMessage": "=Informe devuelto. Quejas a corregir: {{ $json.ids_a_corregir }}.",
-        "limitWaitTime": true,
-        "resumeAmount": 2,
-        "resumeUnit": "days",
         "options": {}
       },
       "type": "n8n-nodes-base.form",
@@ -489,7 +483,7 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "ab3353cc-cb3d-4ba5-ad9f-ef152afd5761",
+  "versionId": "76a3da59-8fe2-444a-a4b5-ad5a23ac9c45",
   "meta": {
     "instanceId": "4a0984e86c0b71e3ac326f701b8406cdea8250cbf684f82dc90658e9809e8eb4"
   },
