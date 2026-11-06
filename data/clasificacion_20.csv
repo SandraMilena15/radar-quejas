@@ -1,21 +1,21 @@
-﻿id_solicitud;canal;producto;motivo_ia;sentimiento;con_duda;resumen;prioridad;motivo_real
-Q00001;Línea telefónica;Tarjeta;Transacción no reconocida;Negativo;FALSE;Cliente indica que ingresó en la aplicación un código recibido por mensaje y le descontaron $670.000 sin autorizar compra.;Alta;
-Q00002;App;Tarjeta;Demora en atención;Negativo;FALSE;La línea siempre está ocupada y es imposible comunicarse;;
-Q00003;App;Tarjeta;Transacción no reconocida;Negativo;FALSE;Cliente no reconoce un movimiento de 1.940.000 de ayer en la noche;;
-Q00004;Correo;Transferencia;Sin clasificar;Neutral;FALSE;Comentario vacío;;
-Q00005;Línea telefónica;Cuenta;Transacción no reconocida;Negativo;FALSE;Alguien se hizo pasar por la titular, vinculó otro dispositivo y hay tres retiros por $430.000 no realizados.;Alta;
-Q00006;SFC;Transferencia;Sin clasificar;Neutral;FALSE;Comentario vacío;;
-Q00007;Línea telefónica;Transferencia;Transacción no reconocida;Negativo;TRUE;Cliente dice que le cobraron seguro de vida de 17 mil tras aprobar tarjeta, sin aceptarlo;;
-Q00008;App;Tarjeta;Otro;Neutral;FALSE;Cliente pregunta si puede recibir giros desde el exterior.;Baja;
-Q00009;Línea telefónica;Tarjeta;Cobro de comisiones;Negativo;TRUE;Le aprobaron un plan de protección de $33.900 al mes que nadie le explicó;;
-Q00010;App;Tarjeta;Transacción no reconocida;Negativo;FALSE;Cliente reporta movimiento de $6.000 no reconocido;;
-Q00011;Línea telefónica;Tarjeta;Cobro de comisiones;Negativo;FALSE;Cliente señala que le cobran $8.000 por consultar su propio saldo, con tono irónico.;Media;
-Q00012;SFC;Tarjeta;Transacción no reconocida;Negativo;FALSE;Cliente no reconoce un movimiento de 2.050.000 de ayer en la noche;;
-Q00013;SFC;Tarjeta;Falla en app o canal digital;Negativo;FALSE;Cliente no puede ver sus extractos y aparece error 500.;Baja;
-Q00014;App;Cuenta;Demora en atención;Negativo;FALSE;Cliente reporta 2 horas de espera para ser atendido y que le colgaron;;
-Q00015;App;Tarjeta;Transacción no reconocida;Negativo;FALSE;Avance de $700.000 no solicitado;;
-Q00016;App;Cuenta;Transacción no reconocida;Negativo;FALSE;Cliente reporta robo de teléfono y transferencias de 1100000 pesos que no hizo;;
-Q00017;App;Tarjeta;Demora en atención;Negativo;TRUE;Lleva un mes pidiendo un certificado y no se lo envían.;Alta;
-Q00018;App;Transferencia;Demora en atención;Negativo;FALSE;Nadie contesta en la línea de atención después de las 5 de la tarde;;
-Q00019;Correo;Tarjeta;Transacción no reconocida;Negativo;FALSE;Cliente reporta tres compras seguidas de $71.000 que no realizó;;
-Q00020;SFC;Tarjeta;Transacción no reconocida;Negativo;FALSE;Cliente reporta compras de $160.000 que no pidió y solicita bloquear todo.;Alta;
+﻿id_solicitud,canal,producto,motivo_ia,sentimiento,con_duda,resumen,prioridad
+Q00001,Línea telefónica,Tarjeta,Transacción no reconocida,Negativo,FALSE,Cliente indica que ingresó en la aplicación un código recibido por mensaje y le descontaron $670.000 sin autorizar compra.,Alta
+Q00002,App,Tarjeta,Demora en atención,Negativo,FALSE,La línea siempre está ocupada y es imposible comunicarse; el caso queda pendiente.,Media
+Q00003,App,Tarjeta,Transacción no reconocida,Negativo,FALSE,Cliente no reconoce un movimiento de 1.940.000 de ayer en la noche; afirma que estaba durmiendo.,Alta
+Q00004,Correo,Transferencia,Sin clasificar,Neutral,FALSE,Comentario vacío; no contiene ninguna queja del cliente.,Baja
+Q00005,Línea telefónica,Cuenta,Transacción no reconocida,Negativo,FALSE,"Alguien se hizo pasar por la titular, vinculó otro dispositivo y hay tres retiros por $430.000 no realizados.",Alta
+Q00006,SFC,Transferencia,Sin clasificar,Neutral,FALSE,Comentario vacío; el cliente no escribió contenido en la queja.,Baja
+Q00007,Línea telefónica,Transferencia,Transacción no reconocida,Negativo,TRUE,"Cliente dice que le cobraron seguro de vida de 17 mil tras aprobar tarjeta, sin aceptarlo; pide explicación.",Alta
+Q00008,App,Tarjeta,Otro,Neutral,FALSE,Cliente pregunta si puede recibir giros desde el exterior.,Baja
+Q00009,Línea telefónica,Tarjeta,Cobro de comisiones,Negativo,TRUE,Le aprobaron un plan de protección de $33.900 al mes que nadie le explicó; pide revisarlo.,Alta
+Q00010,App,Tarjeta,Transacción no reconocida,Negativo,FALSE,Cliente reporta movimiento de $6.000 no reconocido; cree que alguien con sus datos hizo una prueba y pide investigación.,Alta
+Q00011,Línea telefónica,Tarjeta,Cobro de comisiones,Negativo,FALSE,"Cliente señala que le cobran $8.000 por consultar su propio saldo, con tono irónico.",Media
+Q00012,SFC,Tarjeta,Transacción no reconocida,Negativo,FALSE,Cliente no reconoce un movimiento de 2.050.000 de ayer en la noche; estaba durmiendo y ya cambió su clave.,Alta
+Q00013,SFC,Tarjeta,Falla en app o canal digital,Negativo,FALSE,Cliente no puede ver sus extractos y aparece error 500.,Baja
+Q00014,App,Cuenta,Demora en atención,Negativo,FALSE,Cliente reporta 2 horas de espera para ser atendido y que le colgaron; exige respuesta inmediata.,Media
+Q00015,App,Tarjeta,Transacción no reconocida,Negativo,FALSE,Avance de $700.000 no solicitado; la app no permite bloquear la tarjeta ni abre. Cambió la clave.,Alta
+Q00016,App,Cuenta,Transacción no reconocida,Negativo,FALSE,Cliente reporta robo de teléfono y transferencias de 1100000 pesos que no hizo; pide ayuda urgente.,Alta
+Q00017,App,Tarjeta,Demora en atención,Negativo,TRUE,Lleva un mes pidiendo un certificado y no se lo envían.,Alta
+Q00018,App,Transferencia,Demora en atención,Negativo,FALSE,Nadie contesta en la línea de atención después de las 5 de la tarde; perdió la paciencia.,Media
+Q00019,Correo,Tarjeta,Transacción no reconocida,Negativo,FALSE,Cliente reporta tres compras seguidas de $71.000 que no realizó; afirma que es fraude.,Alta
+Q00020,SFC,Tarjeta,Transacción no reconocida,Negativo,FALSE,Cliente reporta compras de $160.000 que no pidió y solicita bloquear todo.,Alta
