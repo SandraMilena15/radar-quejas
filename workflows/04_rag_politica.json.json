@@ -1,0 +1,399 @@
+{
+  "name": "Radar – Consulta de política (RAG)",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -992,
+        -176
+      ],
+      "id": "1bcb6f8f-cf52-41b8-ac70-01d4f86c3024",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "jsCode": "return [{json:{documento:'taxonomia_motivos.md',url:'https://raw.githubusercontent.com/SandraMilena15/radar-quejas/main/conocimiento/taxonomia_motivos.md'}},{json:{documento:'politica_respuesta.md',url:'https://raw.githubusercontent.com/SandraMilena15/radar-quejas/main/conocimiento/politica_respuesta.md'}},{json:{documento:'glosario_cx.md',url:'https://raw.githubusercontent.com/SandraMilena15/radar-quejas/main/conocimiento/glosario_cx.md'}}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -784,
+        -176
+      ],
+      "id": "c3d1199a-b5cd-4097-8edd-75e921c7525a",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.url }}",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "text",
+              "outputPropertyName": "texto"
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        -576,
+        -176
+      ],
+      "id": "60eabec1-fe3b-4638-956e-e39d349b7b1e",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "mode": "insert",
+        "memoryKey": {
+          "__rl": true,
+          "value": "politica_pagoya",
+          "mode": "list"
+        },
+        "clearStore": true
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreInMemory",
+      "typeVersion": 1.4,
+      "position": [
+        -352,
+        -176
+      ],
+      "id": "3aa1183b-fae8-4a53-b1c8-342e0c281d80",
+      "name": "Simple Vector Store"
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.embeddingsGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        -352,
+        32
+      ],
+      "id": "54912b35-614c-4c7b-be91-3f10a5e031bc",
+      "name": "Embeddings Google Gemini",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "L6CWAkLKoZRSbONG",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsonMode": "expressionData",
+        "jsonData": "={{ $json.texto }}",
+        "textSplittingMode": "custom",
+        "options": {
+          "metadata": {
+            "metadataValues": [
+              {
+                "name": "fuente",
+                "value": "={{ $('Code in JavaScript').item.json.documento }}"
+              }
+            ]
+          }
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+      "typeVersion": 1.1,
+      "position": [
+        -224,
+        16
+      ],
+      "id": "55c64f19-f3e6-4ac3-9e1b-9010decec3c3",
+      "name": "Default Data Loader"
+    },
+    {
+      "parameters": {
+        "chunkSize": 500,
+        "chunkOverlap": 50,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.textSplitterRecursiveCharacterTextSplitter",
+      "typeVersion": 1,
+      "position": [
+        0,
+        112
+      ],
+      "id": "9fe954d9-0bb1-4010-b582-805c74f0e201",
+      "name": "Recursive Character Text Splitter"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.5,
+      "position": [
+        -976,
+        -528
+      ],
+      "id": "b5b9ddf6-5fd2-401b-b381-c42bf4d7b849",
+      "name": "When chat message received",
+      "webhookId": "e27b8679-c585-4158-9ea9-4506d305de99"
+    },
+    {
+      "parameters": {
+        "options": {
+          "systemPromptTemplate": "Eres asistente del equipo de Customer Experience de PagoYa.\nResponde en UNA sola frase, solo con el dato que pide la pregunta.\nNo agregues reglas, plazos ni alertas relacionadas que no se preguntaron.\nSi la respuesta no está en el contexto, di exactamente: \"No está en la base de conocimiento\".\nAl final indica el documento de donde sacaste la información.\nResponde en español, en máximo 80 palabras.\n\nContexto:\n{context}"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainRetrievalQa",
+      "typeVersion": 1.7,
+      "position": [
+        -784,
+        -528
+      ],
+      "id": "ba89447b-467e-411c-a316-1ac60e2284dc",
+      "name": "Question and Answer Chain"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "claude-haiku-5-5",
+          "mode": "list",
+          "cachedResultName": "Claude Haiku 5.5"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.6,
+      "position": [
+        -800,
+        -368
+      ],
+      "id": "095c4b38-6a72-4a88-90d9-e13ee56a5380",
+      "name": "Anthropic Chat Model",
+      "credentials": {
+        "anthropicApi": {
+          "id": "rqFo6QgfX8nQcLfn",
+          "name": "Anthropic account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "topK": 3
+      },
+      "type": "@n8n/n8n-nodes-langchain.retrieverVectorStore",
+      "typeVersion": 1,
+      "position": [
+        -592,
+        -416
+      ],
+      "id": "77a57dc2-627d-4816-a6cb-55e73c8f5e51",
+      "name": "Vector Store Retriever"
+    },
+    {
+      "parameters": {
+        "memoryKey": {
+          "__rl": true,
+          "value": "politica_pagoya",
+          "mode": "list",
+          "cachedResultName": "politica_pagoya"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreInMemory",
+      "typeVersion": 1.4,
+      "position": [
+        -288,
+        -304
+      ],
+      "id": "d63acada-9070-407b-a7ea-74f5a2c3e3d5",
+      "name": "Simple Vector Store1"
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.embeddingsGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        0,
+        -192
+      ],
+      "id": "f811451d-bbb8-442d-94ff-0db4ed7111fe",
+      "name": "Embeddings Google Gemini1",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "L6CWAkLKoZRSbONG",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "4e39efd8-b1e9-43fa-b3ec-fd39088415b0",
+              "name": "=output",
+              "value": "={{ $json.response }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        -400,
+        -528
+      ],
+      "id": "d783acf0-92a6-4bd8-9713-8c746a6f82aa",
+      "name": "Edit Fields"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Simple Vector Store",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings Google Gemini": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Simple Vector Store",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Default Data Loader": {
+      "ai_document": [
+        [
+          {
+            "node": "Simple Vector Store",
+            "type": "ai_document",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Recursive Character Text Splitter": {
+      "ai_textSplitter": [
+        [
+          {
+            "node": "Default Data Loader",
+            "type": "ai_textSplitter",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "Question and Answer Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Anthropic Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Question and Answer Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Vector Store Retriever": {
+      "ai_retriever": [
+        [
+          {
+            "node": "Question and Answer Chain",
+            "type": "ai_retriever",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Vector Store1": {
+      "ai_vectorStore": [
+        [
+          {
+            "node": "Vector Store Retriever",
+            "type": "ai_vectorStore",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings Google Gemini1": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Simple Vector Store1",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Question and Answer Chain": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "8b3c3dbc-11ee-464c-88ca-128017dadcaf",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "4a0984e86c0b71e3ac326f701b8406cdea8250cbf684f82dc90658e9809e8eb4"
+  },
+  "nodeGroups": [],
+  "id": "cGGjdlUx7DWzADRD",
+  "tags": []
+}
