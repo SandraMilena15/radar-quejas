@@ -1,0 +1,293 @@
+{
+  "name": "Radar – APIs",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -496,
+        -96
+      ],
+      "id": "4de42c8c-4b5b-4f69-b98a-0d921aca9914",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "url": "https://www.datos.gov.co/resource/32sa-8pi3.json",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "=$where",
+              "value": "=vigenciadesde >= '2026-10-01'"
+            },
+            {
+              "name": "=$order",
+              "value": "=vigenciadesde ASC"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        -320,
+        -96
+      ],
+      "id": "6559e4db-26fe-4088-b64e-26416d2cca0f",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "3f79aff1-53a2-4d4a-ac0a-dec901af45c0",
+              "name": "fecha",
+              "value": "={{ $json.vigenciadesde.slice(0, 10) }}",
+              "type": "string"
+            },
+            {
+              "id": "66c541dc-b67e-4a5e-b896-c6ee94647b9c",
+              "name": "trm",
+              "value": "={{ Number($json.valor) }}",
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        -144,
+        -96
+      ],
+      "id": "04b3e526-fd15-40e1-b688-3a43c2290c43",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "binaryPropertyName": "trm_octubre_2026",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.2,
+      "position": [
+        32,
+        -96
+      ],
+      "id": "4d2ddb71-6251-414f-976b-0688f040b277",
+      "name": "Convert to File"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://httpbin.org/post",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Origen",
+              "value": "radar-quejas"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"id_solicitud\": \"Q00007\",\n  \"motivo_corregido\": \"Cobro de comisiones\",\n  \"revisor\": \"Mile\",\n  \"estado\": \"Devuelto\"\n}",
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        -304,
+        -320
+      ],
+      "id": "7afbbabf-3a86-488d-bc21-a161e2578da2",
+      "name": "HTTP Request1"
+    },
+    {
+      "parameters": {
+        "method": "PUT",
+        "url": "https://httpbin.org/put",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Origen",
+              "value": "radar-quejas"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"id_solicitud\": \"Q00007\",\n  \"motivo_corregido\": \"Cobro de comisiones\",\n  \"revisor\": \"Mile\",\n  \"estado\": \"Devuelto\"\n}",
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        -304,
+        -480
+      ],
+      "id": "25cbe001-9bbf-4815-a692-7ac2a3ee0757",
+      "name": "HTTP Request2"
+    },
+    {
+      "parameters": {
+        "method": "DELETE",
+        "url": "https://httpbin.org/delete",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Origen",
+              "value": "radar-quejas"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"id_solicitud\": \"Q00007\",\n  \"motivo_corregido\": \"Cobro de comisiones\",\n  \"revisor\": \"Mile\",\n  \"estado\": \"Devuelto\"\n}",
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        -288,
+        -656
+      ],
+      "id": "b2afd45c-2941-4908-b292-30388e78e2cf",
+      "name": "HTTP Request3"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "anthropicApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "anthropic-version",
+              "value": "2023-06-01"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"claude-haiku-5-5\",\n  \"max_tokens\": 100,\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"Clasifica el sentimiento de esta queja en una sola palabra (Negativo, Neutral o Positivo): 'Excelente servicio, solo me tuvieron 2 horas en la línea para decirme que no podían hacer nada.'\"\n    }\n  ]\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        -288,
+        -816
+      ],
+      "id": "54dcb7ac-ba4c-45cd-a856-093eb18e9119",
+      "name": "HTTP Request4",
+      "credentials": {
+        "anthropicApi": {
+          "id": "rqFo6QgfX8nQcLfn",
+          "name": "Anthropic account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "HTTP Request1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "HTTP Request2",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "HTTP Request3",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "HTTP Request4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to File": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "5d5ec04d-e9b2-444f-9c87-ddaa540bad3a",
+  "meta": {
+    "instanceId": "4a0984e86c0b71e3ac326f701b8406cdea8250cbf684f82dc90658e9809e8eb4"
+  },
+  "nodeGroups": [],
+  "id": "y7BCtSDr2zdfTHUy",
+  "tags": []
+}
