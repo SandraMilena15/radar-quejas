@@ -12,6 +12,8 @@ récord; cerca del 39 % fueron por transacciones no reconocidas.
 [Ver fuentes y canvas completo](docs/canvas_radar_quejas.md)
 
 ## Cómo funciona (diseño)
+<img width="746" height="492" alt="SQUEMA_DATABASE" src="https://github.com/user-attachments/assets/ee618479-c1d3-4d80-ba91-764f04c35889" />
+
 1. SQL limpia los datos y enmascara información sensible.
 2. Un modelo de IA pequeño clasifica cada queja con una taxonomía definida.
 3. SQL calcula los KPI: quejas por motivo, en riesgo y vencidas.
