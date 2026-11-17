@@ -37,13 +37,26 @@ que lo vea. [Diccionario de datos](data/diccionario_datos.md)
 
 ## Avance
 - [x] Semana 1: canvas, base de conocimiento y dataset sintético validado
-- [x] Semana 2: flujos en n8n
-  - Semáforo de plazos (reglas, sin IA)
-  - Clasificador con salida estructurada en JSON (19/20 en la primera medición)
-  - Asistente de consulta de la política con RAG (10/10 preguntas)
-  - Aprobación humana de las quejas críticas antes del informe
-- [ ] Semana 3: base de datos en Supabase y vistas SQL de KPI
+- [x] Semana 2: flujos en n8n (semáforo, clasificador, RAG y aprobación humana)
+- [x] Semana 3: base de datos y agente
+  - Esquema en Supabase con taxonomía como tabla y restricciones de calidad
+  - Vistas SQL de KPI: plazos, tiempo de respuesta, motivos por semana
+  - Clasificador idempotente que lee y escribe en la base (96,8 % en 250 quejas)
+  - Agente text-to-SQL de solo lectura, con seguridad probada en dos capas
 - [ ] Semana 4: interfaz, dashboard y video demo
+
+## Seguridad del agente
+| Prueba | Resultado |
+|---|---|
+| El agente intenta leer una tabla protegida | Se niega (prompt) |
+| La credencial del agente consulta una tabla protegida | permission denied (base de datos) |
+| La credencial del agente consulta las vistas autorizadas | 2.000 filas |
+
+## Limitaciones conocidas
+- Datos sintéticos: el KPI de quejas vencidas (~87 %) es un efecto de cómo se
+  generó el dataset, no un comportamiento real.
+- La conexión local de n8n a Supabase omite la verificación del certificado SSL.
+- El enmascaramiento de datos sensibles antes de la IA aún no está construido.
 
 ## Flujos
 | Archivo | Qué hace |
