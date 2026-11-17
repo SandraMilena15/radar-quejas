@@ -65,7 +65,7 @@ que lo vea. [Diccionario de datos](data/diccionario_datos.md)
 | `workflows/02_semaforo_plazos.json` | Calcula días hábiles y separa vencidas, en riesgo y en plazo |
 | `workflows/03_clasificador.json` | Clasifica quejas en JSON; la prioridad sale de una regla |
 | `workflows/04_rag_politica.json` | Responde sobre la política citando la fuente |
-| `workflows/05_aprobacion_humana.json` | Detiene el flujo hasta que una analista aprueba o devuelve |****
+| `workflows/05_aprobacion_humana.json` | Detiene el flujo hasta que una analista aprueba o devuelve |
 | `workflows/06_apis.json` |	Consume APIs (TRM de datos.gov.co) con HTTP Request |
 | `workflows/07_clasificador_supabase.json` |	Clasifica leyendo y escribiendo en Supabase, sin duplicar |
 | `workflows/08_agente_consulta.json` |	Agente que responde preguntas con SQL de solo lectura |
