@@ -12,7 +12,7 @@ récord; cerca del 39 % fueron por transacciones no reconocidas.
 [Ver fuentes y canvas completo](docs/canvas_radar_quejas.md)
 
 ## Cómo funciona (diseño)
-<img width="746" height="492" alt="SQUEMA_DATABASE" src="https://github.com/user-attachments/assets/ee618479-c1d3-4d80-ba91-764f04c35889" />
+<img width="746" height="492" alt="Esquema de la base de datos" src="https://github.com/user-attachments/assets/ee618479-c1d3-4d80-ba91-764f04c35889" />
 
 1. SQL limpia los datos y enmascara información sensible.
 2. Un modelo de IA pequeño clasifica cada queja con una taxonomía definida.
@@ -61,10 +61,14 @@ que lo vea. [Diccionario de datos](data/diccionario_datos.md)
 ## Flujos
 | Archivo | Qué hace |
 |---|---|
+| `workflows/01_hola_mundo.json` |	Primer flujo: prueba de conexión con el modelo |
 | `workflows/02_semaforo_plazos.json` | Calcula días hábiles y separa vencidas, en riesgo y en plazo |
 | `workflows/03_clasificador.json` | Clasifica quejas en JSON; la prioridad sale de una regla |
 | `workflows/04_rag_politica.json` | Responde sobre la política citando la fuente |
-| `workflows/05_aprobacion_humana.json` | Detiene el flujo hasta que una analista aprueba o devuelve |
+| `workflows/05_aprobacion_humana.json` | Detiene el flujo hasta que una analista aprueba o devuelve |****
+| `workflows/06_apis.json` |	Consume APIs (TRM de datos.gov.co) con HTTP Request |
+| `workflows/07_clasificador_supabase.json` |	Clasifica leyendo y escribiendo en Supabase, sin duplicar |
+| `workflows/08_agente_consulta.json` |	Agente que responde preguntas con SQL de solo lectura |
 
 
 ## Autora
