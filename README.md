@@ -4,7 +4,7 @@ Agente de IA que clasifica las quejas de una fintech, detecta qué motivo está
 creciendo y prioriza las que tienen riesgo de fraude o de vencer el plazo, con
 revisión humana antes de enviar el informe semanal.
 
-> Estado: en construcción (semana 1 de 8). PagoYa es una empresa ficticia.
+> Estado: en construcción (semana 4 de 8). PagoYa es una empresa ficticia.
 
 ## El problema
 En 2025 la Superintendencia Financiera recibió 2,76 millones de quejas, un
