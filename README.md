@@ -43,6 +43,7 @@ que lo vea. [Diccionario de datos](data/diccionario_datos.md)
   - Vistas SQL de KPI: plazos, tiempo de respuesta, motivos por semana
   - Clasificador idempotente que lee y escribe en la base (96,8 % en 250 quejas)
   - Agente text-to-SQL de solo lectura, con seguridad probada en dos capas
+  - Principios de UX para IA y auditoría del Radar ([ver](docs/principios_ux.md))
 - [ ] Semana 4: interfaz, dashboard y video demo
 
 ## Seguridad del agente
