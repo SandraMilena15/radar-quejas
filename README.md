@@ -46,6 +46,7 @@ que lo vea. [Diccionario de datos](data/diccionario_datos.md)
   - Principios de UX para IA y auditoría del Radar ([ver](docs/principios_ux.md))
 - [ ] Semana 4: interfaz, dashboard y video demo
   - Wireframes del panel y de la bandeja de revisión ([ver](docs/wireframes/sistema_diseno.md))
+  - ![Panel semanal del Radar](docs/wireframes/panel_semanal.png)
 
 ## Seguridad del agente
 | Prueba | Resultado |
