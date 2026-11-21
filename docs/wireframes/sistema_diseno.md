@@ -19,6 +19,7 @@ la analista confirma o corrige → vuelve al panel → "Aprobar informe".
 | 2. Sin fuente en los KPI | Fuente y fecha de corte debajo de cada KPI y gráfico |
 | 3. No se ve por qué dudó la IA | Campo "Motivo de la duda" en la bandeja |
 | 5. Sin registro de correcciones | Formulario de corrección con nota obligatoria + historial |
+| Prueba de 5 s: "solo veo datos" | Titular con la conclusión y la acción de la semana |
 | 7. Dato vs. hipótesis | Etiquetas DATO (azul) e HIPÓTESIS IA · POR VALIDAR (morado) |
 
 ## 2. Reglas del sistema de diseño
@@ -64,10 +65,16 @@ si había algo urgente y qué haría primero.
 
 | Pregunta | Respuesta |
 |---|---|
-| ¿Qué recuerdas? | (completar) |
-| ¿Hay algo urgente? | (completar) |
-| ¿Qué harías primero? | (completar) |
-| Conclusión | (completar: ¿mencionó la alerta del pico? ¿Qué cambiarías?) |
+| ¿Qué recuerdas? | La cantidad de quejas (527), el número de vencidas (435) y las barras grises del gráfico |
+| ¿Hay algo urgente? | Sí: recordó los datos de las alertas y lo marcado como crítico |
+| ¿Qué harías primero? | "Veo solo datos, no alcancé a analizar en esos 5 segundos" |
+| Conclusión | La jerarquía funciona (KPI y alerta crítica se recuerdan primero), pero el panel **muestra datos sin decir qué hacer**, y el gráfico gris atrae la mirada sin informar |
+
+**Cambios después de la prueba (versión actual):**
+1. **Titular arriba del panel:** "Esta semana: pico de transacciones no reconocidas con tarjeta por app (+60,6 %). Revisa 202 casos con duda y aprueba el informe." Resume la conclusión y la acción en una línea.
+2. **Gráfico resaltado:** el segmento de no reconocidas de la semana 4 va en rojo, para que el gráfico confirme la alerta en lugar de competir con ella.
+
+Pendiente: repetir la prueba de 5 segundos con la versión nueva.
 
 ## 6. Pendientes técnicos que exige el diseño
 - **Motivo de la duda:** el clasificador debe devolver un campo nuevo (`motivo_duda`) en su salida estructurada.
