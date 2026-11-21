@@ -45,6 +45,7 @@ que lo vea. [Diccionario de datos](data/diccionario_datos.md)
   - Agente text-to-SQL de solo lectura, con seguridad probada en dos capas
   - Principios de UX para IA y auditoría del Radar ([ver](docs/principios_ux.md))
 - [ ] Semana 4: interfaz, dashboard y video demo
+  - Wireframes del panel y de la bandeja de revisión ([ver](docs/wireframes/sistema_diseno.md))
 
 ## Seguridad del agente
 | Prueba | Resultado |
