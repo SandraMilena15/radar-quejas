@@ -42,7 +42,7 @@ Los principios anteriores se traducen en las siguientes reglas de comportamiento
 | Situación | Comportamiento esperado |
 |---|---|
 | Clasificación con incertidumbre | Enviar el caso a revisión humana. |
-| Clasificación con evidencia suficiente | Presentar la categoría sugerida y su nivel de confianza. |
+| Clasificación con evidencia suficiente | Presentar la categoría sugerida; si hay duda, indicar el motivo. |
 | Incremento de un motivo de queja | Mostrar el porcentaje calculado y su periodo de comparación. |
 | Explicación de un incremento | Presentar la explicación de IA como hipótesis, no como causa confirmada. |
 | Consulta sin información disponible | Informar que no existen datos suficientes. |
@@ -177,20 +177,22 @@ Esta separación busca reducir errores de interpretación, evitar decisiones aut
 
 ---
 
-## 7. Estado de implementación
+## 7. Auditoría del Radar por principio
 
-Los principios representan decisiones de diseño. Su cumplimiento debe verificarse mediante pruebas técnicas y de experiencia de usuario.
+| Principio | Cómo lo cumple hoy | Qué falta | Estado |
+|---|---|---|---|
+| 1. Capacidades | El agente explica qué puede y qué no puede hacer cuando se le pregunta | La interfaz no lo muestra al inicio (mensaje de bienvenida) | Parcial |
+| 2. Fuente | Cada respuesta del agente termina con la vista consultada | El panel todavía no muestra fuente ni fecha de corte en los KPI | Parcial (agente ✅, interfaz pendiente) |
+| 3. Confianza | El clasificador marca "con duda" (202 de 2.000) y, ante la duda, sube la prioridad; precisión de 96,8 % | No se guarda por qué dudó la IA | Parcial |
+| 4. Decir "no sé" | Formato exacto con ejemplo; verifica en las vistas antes de responder | Ninguna | Implementado y validado |
+| 5. Corregir | El agente se niega a modificar datos (solo lectura) | No existe una tabla de correcciones con usuario y fecha | Pendiente |
+| 6. Control humano | El flujo de aprobación detiene el proceso hasta que una persona aprueba | Ninguna | Implementado y validado |
+| 7. Hechos vs. hipótesis | El agente separa hechos (con cifras y fuente) de hipótesis "por validar" | Falta la marca visual en la interfaz | Parcial |
+| Datos sensibles | Los datos son sintéticos | El enmascaramiento antes de enviar el texto a la IA no está construido | Pendiente |
 
-Cada funcionalidad debe clasificarse como:
+**Prioridades:** tabla de correcciones, motivo de la duda y fuente visible en el panel.
 
-- Implementada y validada.
-- Implementada, pendiente de validación.
-- Definida, pendiente de desarrollo.
-
-El objetivo es mantener una relación verificable entre los principios del producto, las funcionalidades desarrolladas y los criterios de aceptación.
-
-## 8. Auditoría 
-### Pruebas al agente (21 nov 2026)
+## 8. Pruebas al agente (21 nov 2026)
 | # | Principio | Pregunta | Resultado | Observación |
 |---|---|---|---|---|
 | 1 | Capacidades | ¿Qué puedes hacer y qué no? | ✅ | Lista vistas, límites y rango de fechas |
