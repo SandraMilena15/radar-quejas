@@ -52,13 +52,14 @@ Los principios anteriores se traducen en las siguientes reglas de comportamiento
 
 ### Ejemplo: incremento de quejas del 60,6 %
 
-**Dato verificable:**
+**Dato verificable (sale de SQL):**
+Quejas por transacción no reconocida, con tarjeta, por la app: 76 en la semana 4,
+un 60,6 % más que el promedio de las semanas 1 a 3. Fuente: vista de motivos por
+semana, corte del 29 de octubre.
 
-El motivo de quejas no reconocidas presentó un incremento del 60,6 % frente al periodo de comparación.
-
-**Hipótesis generada por IA:**
-
-El incremento podría estar relacionado con dificultades en el proceso de reconocimiento de transacciones dentro de la aplicación.
+**Hipótesis de la IA (por validar):**
+El aumento podría venir de una falla en la app, porque el pico se concentra en
+ese canal.
 
 **Validación requerida:**
 
